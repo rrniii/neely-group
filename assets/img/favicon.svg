@@ -2,10 +2,9 @@
   <defs><clipPath id="polar-disc"><circle cx="48" cy="48" r="44"/></clipPath></defs>
   <circle cx="48" cy="48" r="46" fill="#153d4a"/>
   <g clip-path="url(#polar-disc)">
-    <path transform="translate(1 2) scale(0.86)" d="M17 42c-7 0-9-8-3-12 2-5 7-7 12-5 3-10 18-10 21 2 6-1 11 3 11 8 5 3 4 9-3 10H24c-3 0-5-1-7-3Z" fill="#f1fafb"/>
-    <path d="M60 19q5 16 14 19 3-7 12-7" fill="none" stroke="#dcb66b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="m3 64 22-7 17 3 18-5 20 4 14 7v31H3Z" fill="#f1fafb"/>
-    <path d="m3 77 25-8 19 4 18-7 16 3 13 9v19H3Z" fill="#99dbe4"/>
+    <path d="M20 44c-5 0-8-3-8-7s3-7 8-7h2c1-6 5-10 11-10 7 0 12 5 13 11 5 0 9 3 9 7s-3 6-8 6Z" fill="#f1fafb"/>
+    <path d="M57 20c4 12 8 17 13 19 4-8 9-10 15-11-6 5-9 9-12 16l-6-2c-6-4-9-11-10-22Z" fill="#dcb66b"/>
+    <path d="M0 62c15-1 20-5 32-5l33 3h31v36H0Z" fill="#f1fafb"/>
+    <path d="M0 78 57 70 96 74v22H0Z" fill="#99dbe4"/>
   </g>
-  <circle cx="48" cy="48" r="44" fill="none" stroke="#99dbe4" stroke-width="2"/>
 </svg>
