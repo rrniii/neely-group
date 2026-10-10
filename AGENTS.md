@@ -11,3 +11,4 @@ This is a Jekyll / al-folio fork of mgrau/graulab.org. Preserve the template's n
 - Format with `npx prettier . --write`; build with `JEKYLL_ENV=production bundle exec jekyll build`; run `python3 scripts/check_site.py`.
 - Ruby 3.3.5 is used in CI. Docker is optional when available.
 - GitHub Actions builds, validates, and deploys `_site` on pushes to `main`.
+- Commit and push changes as work progresses, including source, logo assets and design prompts. Do not leave requested deliverables only in ignored preview folders. Verify the push succeeded and report the commit in the completion update.
