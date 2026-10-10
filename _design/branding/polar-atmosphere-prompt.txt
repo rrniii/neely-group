@@ -1,0 +1,10 @@
+Built-in imagegen edit.
+
+Source: the reviewed wordless UK BirdCast-guided Neely emblem.
+Final result: assets/img/brand/polar-atmosphere.png
+Companion logo: assets/img/brand/uk-birdcast.jpg (original, unaltered).
+
+Edit the supplied circular polar radar logo. Remove ONLY the two dark flying bird silhouettes and the small dark insect/moth silhouette from the right-hand sky. Fill each removal seamlessly with the surrounding existing muted blue-grey sky.
+Preserve everything else exactly: the heavy dark circular border, overall crop and scale, radar dish and pedestal, all cloud shapes, snowflakes and precipitation dots, polar ice foreground, existing colours and illustration style, and white exterior background. Keep the logo centred in its square frame.
+Do not add any animals, words, letters, radiation or signal-wave lines, symbols, or extra detail. The result must contain only radar, polar ice, cloud and snowfall inside the circular emblem.
+

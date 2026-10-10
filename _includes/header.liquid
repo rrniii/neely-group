@@ -3,7 +3,19 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       <a class="navbar-brand title" href="{{ '/' | relative_url }}">
-        <img class="brand-mark" src="{{ '/assets/img/logo.svg' | relative_url | bust_file_cache }}" alt="" width="50" height="50">
+        <span class="brand-marks">
+          <span class="brand-mark brand-mark-polar">
+            <img
+              src="{{ '/assets/img/brand/polar-atmosphere.png' | relative_url | bust_file_cache }}"
+              alt="Polar atmospheric research logo"
+              width="50"
+              height="50"
+            >
+          </span>
+          <span class="brand-mark">
+            <img src="{{ '/assets/img/brand/uk-birdcast.jpg' | relative_url | bust_file_cache }}" alt="UK BirdCast logo" width="50" height="50">
+          </span>
+        </span>
         <span class="brand-name">Neely<span class="brand-subtitle">Research Group</span></span>
       </a>
       <!-- Navbar Toggle -->

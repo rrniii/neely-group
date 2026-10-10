@@ -24,6 +24,8 @@ Set `featured: true`, `importance`, `short_title` and `highlight_label` on a pro
 
 Set `selected = {true}` on a BibTeX entry to feature it on the homepage. Publication metadata is maintained explicitly; no automatic citation-count scraping is enabled. People are a selection from linked public profiles, not a complete employment roster. Current and past doctoral supervision are held separately in `_data/people.yml`; supervision periods do not imply current appointments or graduation dates.
 
+The header pairs two separate logos: `assets/img/brand/polar-atmosphere.png` for polar atmospheric research and the original `assets/img/brand/uk-birdcast.jpg` for UK BirdCast. The polar emblem is also the favicon. Header placement is in `_includes/header.liquid`; responsive sizing is in `_sass/_group.scss`.
+
 ## Build and preview
 
 Use Ruby 3.3.5 and Bundler. Docker is an optional alternative using the inherited Compose configuration.
