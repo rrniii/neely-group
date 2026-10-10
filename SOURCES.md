@@ -23,7 +23,20 @@ Checked 10 October 2026. “Neely Research Group” is a working site name for t
 - [Tommy Matthews](https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3694/tommy-matthews), [Solanum Foulstone](https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3683/mx-solanum-foulstone) and [Net Zero Polar Science researchers](https://nzps-dtp.ac.uk/nzps-researchers/): additional doctoral profiles.
 - [Public teaching record](https://github.com/rrniii/cv/blob/main/sections/teaching.md) and [2026/27 SOEE3791 catalogue](https://catalogue.leeds.ac.uk/Module/UG/SOEE/3791/202627): modules, field teaching, education leadership and professional training.
 
-The bibliography now includes 18 selected published papers, including the two 2026 papers in the public CV. New entries were checked against publisher and Crossref records. Submitted manuscripts and preprints are not represented as published papers.
+The bibliography now includes 23 selected published papers, including the two 2026 papers in the public CV. New entries were checked against publisher and Crossref records. Submitted manuscripts and preprints are not represented as published papers.
+
+## Scientific methods and published findings
+
+The research overview connects instrument development, interpretation and model evaluation using published examples. Its general framing is supported by the studies below; it does not announce a new funded programme or promise future capabilities.
+
+- [Stillwell et al. (2018)](https://doi.org/10.5194/amt-11-835-2018): polarimetric lidar measurement effects and improved cloud-phase determination.
+- [Stillwell et al. (2019)](https://doi.org/10.1029/2018JD028963): observed associations between horizontal ice-crystal orientation and surface radiation. The site does not present these associations as proof of the proposed physical mechanisms.
+- [Sterzinger et al. (2022)](https://doi.org/10.5194/acp-22-8973-2022): observations and idealised simulations test aerosol-limited cloud dissipation; the interpretation is case-dependent.
+- [Martin et al. (2026)](https://doi.org/10.5194/amt-19-3511-2026): co-location methods demonstrated using ICESat-2 and four surface Cloudnet observatories.
+- [Wallbank et al. (2022)](https://doi.org/10.1016/j.jhydrol.2022.128311): RAiNS rainfall evaluated through river-flow simulations. No claim of operational adoption is made.
+- [Mungee et al. (2025)](https://doi.org/10.1111/gcb.70425): 2014–2021 weather-radar analysis across more than 35,000 km², sampling 500–700 m above ground; regional and day/night distinctions are retained.
+- [Barr et al. (2023)](https://doi.org/10.1126/sciadv.adg3708): southern Alaskan dust and ice-nucleating particles, added to the bibliography.
+- [Addison et al. (2022)](https://doi.org/10.3390/rs14061494): electromagnetic modelling of moth radar cross sections, added to the bibliography using the current publisher author name.
 
 ## Research data
 

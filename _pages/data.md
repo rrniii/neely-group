@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Measurements become more useful when other researchers can build on them. These selected archives connect our field campaigns, observing systems and modelling work with reusable research data.
+Measurements become more useful when other researchers can build on them. These selected archives connect our field campaigns, observing systems and modelling work with reusable research data. They provide evidence for studying physical processes, evaluating models and comparing measurements across instruments and environments.
 
 ## WOEST: convection and turbulence
 
@@ -50,6 +50,8 @@ Developed by Ryan Neely and Anja Schmidt, VolcanEESM brings together volcanic su
 [Explore the VolcanEESM collection](https://catalogue.ceda.ac.uk/uuid/bfbd5ec825fa422f9a858b14ae7b2a0d/)
 
 ## Using and citing the data
+
+Combining datasets requires attention to when, where and over what volume each instrument measured. Our [published co-location method](https://doi.org/10.5194/amt-19-3511-2026) uses shared information between datasets to guide that matching, demonstrated with ICESat-2 and four surface Cloudnet observatories.
 
 Each archive provides the authoritative record of coverage, processing, quality information, access conditions and licence. Cite the specific dataset and version you use, alongside any relevant methods paper. The [publications page]({{ '/publications/' | relative_url }}) provides a selection of those papers; Ryan's [full CV](https://rrniii.github.io/cv/) includes a wider dataset record.
 

@@ -7,9 +7,15 @@ img: assets/img/fieldwork/helikite.jpg
 importance: 1
 ---
 
-Clouds influence how much energy reaches and leaves an ice sheet. Their effect depends on cloud height, phase and water content, and on the aerosol particles from which droplets and ice form.
+Clouds influence how much energy reaches and leaves an ice sheet. Their effect depends on cloud height, phase and water content, and on the aerosol particles from which droplets and ice form. Understanding their radiation and snowfall helps explain the atmosphere's contribution to surface melt and accumulation.
 
-We combine in situ measurements with radar, lidar and other remote sensing observations to investigate these processes. Work at Summit Station in Greenland connects aerosol properties, fog, mixed-phase clouds and the surface energy budget.
+We combine in situ measurements with radar, lidar and other remote sensing observations to investigate these processes. Work at Summit Station in Greenland connects aerosol properties, fog, mixed-phase clouds — containing both liquid droplets and ice — and the surface energy budget.
+
+## What better measurements reveal
+
+Identifying liquid and ice correctly matters for understanding how clouds heat or cool the surface. Our work with CAPABL showed how instrument effects can make liquid clouds appear to contain ice, and developed measurements that identify and correct those errors. A later study linked the orientation of ice crystals to differences in the surface radiation budget at Summit, opening questions about the physical mechanisms involved. [Read the cloud-phase study](https://doi.org/10.5194/amt-11-835-2018) and [the ice-orientation study](https://doi.org/10.1029/2018JD028963).
+
+We also use observations to test explanations for cloud change. Comparisons with idealised simulations examined whether a shortage of aerosol particles could cause mixed-phase clouds to dissipate. Results were consistent with that explanation for cases in Greenland and the Arctic Ocean, while an Alaskan case pointed to other processes. These comparisons help distinguish possible causes of cloud loss and assess how models represent them. [Read Sterzinger et al. (2022)](https://doi.org/10.5194/acp-22-8973-2022).
 
 ## From Summit to the Greenland melt zone
 

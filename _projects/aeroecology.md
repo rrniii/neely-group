@@ -16,6 +16,10 @@ Our work brings atmospheric scientists together with ecologists to understand wh
 - What can radar measurements reveal about the animals producing those echoes?
 - How does movement through the atmosphere relate to weather and the environment?
 
+## What the observations reveal
+
+Our 2025 study used weather-radar observations from **2014–2021 across more than 35,000 km² of the UK** to estimate aerial arthropod abundance. It found different trends by region and time of day: nocturnal abundance declined overall, while daytime abundance did not show the same overall decline. The analysis sampled animals flying 500–700 metres above the ground, showing how radar can extend biodiversity observations into a part of the atmosphere that is difficult to monitor directly. These distinctions matter when interpreting large-scale trends and their environmental associations. [Read Mungee et al. (2025)](https://doi.org/10.1111/gcb.70425).
+
 ## From biodiversity monitoring to offshore migration
 
 **BioDAR** brings together atmospheric physics, ecology and machine learning to investigate whether existing weather radar networks can measure insect communities. Ryan is a co-founder of the collaboration, contributing radar expertise alongside Christopher Hassall and Elizabeth Duncan. The work connects electromagnetic scattering models with the challenge of distinguishing organisms by their size and shape. [Explore BioDAR](https://biodarproject.org/the-biodar-team) and the [Leeds project overview](https://environment.leeds.ac.uk/news/article/463/using-weather-radar-to-monitor-insects).

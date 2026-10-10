@@ -154,6 +154,32 @@ figcaption {
   color: var(--global-text-color-light);
   font-size: 0.95rem;
 }
+.observation-cycle {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 3.5rem;
+}
+#how-we-work {
+  scroll-margin-top: 6.5rem;
+}
+.observation-cycle li {
+  border-top: 2px solid var(--global-theme-color);
+  padding-top: 1.25rem;
+}
+.observation-cycle h3 {
+  font-size: 1.3rem;
+  margin: 0.8rem 0;
+}
+.observation-cycle p {
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+}
+.observation-cycle a {
+  font-size: 0.9rem;
+}
 .field-feature {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -224,7 +250,8 @@ button:focus-visible {
 @media (max-width: 767px) {
   .group-hero,
   .field-feature,
-  .research-links {
+  .research-links,
+  .observation-cycle {
     grid-template-columns: 1fr;
   }
   .group-hero {
@@ -277,7 +304,7 @@ button:focus-visible {
   margin: 2rem 0 3rem;
   gap: 2.5rem 3rem;
 }
-.research-overview h2 {
+.research-overview .project-title {
   font-size: 1.65rem;
   margin: 0.8rem 0;
 }

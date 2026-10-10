@@ -17,6 +17,10 @@ Ryan is the principal investigator for the NCAS radar facilities, working with i
 
 Our work includes characterising instrument performance, improving calibration and developing methods to interpret the observations. Field campaigns connect radar measurements with rain gauges, disdrometers and other instruments so that retrieved rainfall and particle properties can be evaluated against independent measurements.
 
+## From rainfall measurements to river flows
+
+Rainfall measurements become more useful when we understand how their errors affect applications. Using observations from the **Radar Applications in Northern Scotland (RAiNS)** campaign, we tested X-band rainfall estimates as inputs to the Grid-to-Grid hydrological model and compared the resulting river flows with observations. The study showed how radar sampling height, mountainous terrain and the melting layer affect performance. Evaluating rainfall through river flows provides a further test of the measurements and helps target improvements relevant to flood modelling. [Read Wallbank et al. (2022)](https://doi.org/10.1016/j.jhydrol.2022.128311).
+
 ## Turbulence and weather forecasting
 
 The **WOEST** programme, led by Ryan, brings multiple radar systems together with lidar, unmanned aircraft, radiosondes and the FAAM Airborne Laboratory to investigate turbulent motion in and around convective clouds. Its 2023 field campaign in southern England produced a shared dataset for evaluating how weather models represent these processes. [Explore WOEST and its observations]({{ '/projects/woest/' | relative_url }}).
