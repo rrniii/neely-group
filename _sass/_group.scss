@@ -271,3 +271,23 @@ button:focus-visible {
 .group-button span {
   color: inherit;
 }
+
+.research-overview {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem 0 3rem;
+  gap: 2.5rem 3rem;
+}
+.research-overview h2 {
+  font-size: 1.65rem;
+  margin: 0.8rem 0;
+}
+.research-overview .project-link {
+  color: var(--global-theme-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .research-overview {
+    grid-template-columns: 1fr;
+  }
+}
