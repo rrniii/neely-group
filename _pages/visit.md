@@ -4,7 +4,7 @@ permalink: /visit/
 title: contact
 description: Research enquiries, collaboration and postgraduate study.
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 ## Get in touch

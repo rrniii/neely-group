@@ -9,9 +9,31 @@ Checked 10 October 2026. “Neely Research Group” is a working site name for t
 - [GAMB2LE](https://www.gamb2le.co.uk/): autonomous observing platform and project team.
 - [ICECAPS-MELT](https://www.icecapsmelt.org/): polar research context.
 - [NCAS radar overview](https://ncas.ac.uk/see-inside-the-clouds-meet-our-atmospheric-radars/): instrumentation context; the homepage photograph shows the older NXPol1, not NXPol2.
-- [Public CV](https://rrniii.github.io/cv/): wider publication record.
+- [Public CV](https://rrniii.github.io/cv/): research programmes, supervision, teaching and wider publication and dataset record. Compared against public source commit `ace6b51c6736462d6f94a28d43b4b016dd4ae7d8` on 10 October 2026; current institutional profiles and publisher/catalogue records corroborate details where available.
 
-People's titles and project summaries are based on the institutional URLs stored with each entry in `_data/people.yml`. These are selected profiles, not a complete or authoritative staffing list. Publication records in `_publications/papers.bib` were checked against DOI publisher records / Crossref; the bibliography contains published papers and no private drafts. Current publisher metadata is used where authors' names have been updated.
+## CV comparison and added coverage
+
+- [WOEST project overview](https://ncas.ac.uk/researchers-awarded-1-8m-to-improve-turbulence-in-weather-forecasts/): scientific aims, leadership and participating institutions.
+- [Troll Integrated Cloud Observatory](https://ncas.ac.uk/observatory-in-antarctica-enables-scientists-to-study-clouds-like-never-before/): Ryan's involvement and observatory instruments.
+- [GAMB2LE team](https://www.gamb2le.co.uk/team): shared leadership with Heather Guy and Sarah Barr.
+- [BioDAR team](https://biodarproject.org/the-biodar-team), [DRUID](https://druidproject.org.uk/) and [AVOCET](https://www.france-energies-marines.org/en/rd-project/avocet/): radar aeroecology programmes.
+- [Global Biosphere Sensing Network](https://www.leeds.ac.uk/horizons-institute/doc/challenge-theme-networks): co-leadership and interdisciplinary context.
+- [COBALT EGU abstract](https://meetingorganizer.copernicus.org/EGU25/EGU25-20111.html): observations across radar, camera and satellite platforms; described as a conference contribution.
+- [Public supervision record](https://github.com/rrniii/cv/blob/main/sections/students.md): current supervision roles and historical periods. Past periods are not treated as proof of graduation or current employment. Clare Ballantyne's supervision is sourced only to this public record; no affiliation or project is inferred.
+- [Tommy Matthews](https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3694/tommy-matthews), [Solanum Foulstone](https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3683/mx-solanum-foulstone) and [Net Zero Polar Science researchers](https://nzps-dtp.ac.uk/nzps-researchers/): additional doctoral profiles.
+- [Public teaching record](https://github.com/rrniii/cv/blob/main/sections/teaching.md) and [2026/27 SOEE3791 catalogue](https://catalogue.leeds.ac.uk/Module/UG/SOEE/3791/202627): modules, field teaching, education leadership and professional training.
+
+The bibliography now includes 18 selected published papers, including the two 2026 papers in the public CV. New entries were checked against publisher and Crossref records. Submitted manuscripts and preprints are not represented as published papers.
+
+## Research data
+
+- [WOEST collection](https://catalogue.ceda.ac.uk/uuid/36756ff1928f4a1684902b470cda774e/): 2023 campaign, 2025 archive publication.
+- [ICECAPS-ACE collection](https://catalogue.ceda.ac.uk/uuid/f06c6aa727404ca788ee3dd0515ea61a/): Greenland aerosol, meteorological and surface-exchange observations.
+- [DiVeN dataset](https://catalogue.ceda.ac.uk/uuid/602f11d9a2034dae9d0a7356f9aeaf45/): UK particle diameter and fall-speed observations, 2017–2019.
+- [Troll on Cloudnet](https://cloudnet.fmi.fi/site/troll) and [TONe-ICO data guidance](https://www.esr.org/data-products/tone-ico/): international observatory data and citation guidance.
+- [VolcanEESM collection](https://catalogue.ceda.ac.uk/uuid/bfbd5ec825fa422f9a858b14ae7b2a0d/): verified catalogue coverage 1850–2015 and a 2016 citation. The CV's 2025 Version 2 entry could not be independently confirmed in the public catalogue, so the site does not repeat that version claim.
+
+People's titles and project summaries are based on the institutional URLs stored with each entry in `_data/people.yml`, with the explicitly identified public-CV exception above. These are selected profiles, not a complete or authoritative staffing list. Publication records in `_publications/papers.bib` were checked against DOI publisher records / Crossref; the bibliography contains published papers and no private drafts. Current publisher metadata is used where authors' names have been updated.
 
 ## Images
 

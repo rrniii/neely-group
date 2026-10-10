@@ -13,7 +13,21 @@ Our research connects instrument development, field campaigns and data analysis.
 
 ## From instruments to insight
 
-The NCAS mobile radar programme supports observations of cloud and precipitation structure. Our work includes characterising instrument performance, improving calibration and developing methods to interpret the observations.
+Ryan is the principal investigator for the NCAS radar facilities, working with instrument scientists and engineers to develop observations for the wider research community. This includes the **NXPol dual-polarisation X-band weather radars** and **Ka-band cloud radar** capabilities. Weather and cloud radars provide complementary views of precipitation, cloud particles and atmospheric motion. [Explore the NCAS radar programme](https://ncas.ac.uk/see-inside-the-clouds-meet-our-atmospheric-radars/).
+
+Our work includes characterising instrument performance, improving calibration and developing methods to interpret the observations. Field campaigns connect radar measurements with rain gauges, disdrometers and other instruments so that retrieved rainfall and particle properties can be evaluated against independent measurements.
+
+## Turbulence and weather forecasting
+
+The **WOEST** programme, led by Ryan, brings multiple radar systems together with lidar, unmanned aircraft, radiosondes and the FAAM Airborne Laboratory to investigate turbulent motion in and around convective clouds. Its 2023 field campaign in southern England produced a shared dataset for evaluating how weather models represent these processes. [Explore WOEST and its observations]({{ '/projects/woest/' | relative_url }}).
+
+## Contrails and aviation
+
+The collaborative **Contrail Observations and Lifecycle Tracking (COBALT)** project combines cloud radar, ground-based cameras, aircraft tracks and satellite observations to follow how contrails evolve. Observations over southern England connect their first minutes with changes over subsequent hours, providing evidence for evaluating models of aviation's effects on clouds. [Read the 2025 project presentation](https://meetingorganizer.copernicus.org/EGU25/EGU25-20111.html).
+
+## A resource for the research community
+
+The radar facilities support collaborative field science, instrument development and training. The [Atmospheric Measurement and Observation Facility](https://amof.ac.uk/) provides the authoritative information on instruments and how researchers can access them. Work with colleagues also includes building connections across the UK radar community, documented in [Rhodes et al. (2026)](https://doi.org/10.1002/wea.70039).
 
 The photograph below shows the original NXPol instrument, documented in our 2018 technical paper. Current instrumentation is described by the [NCAS Atmospheric Measurement and Observation Facility](https://amof.ac.uk/).
 

@@ -1,6 +1,7 @@
 # Selected public profiles for the Neely research community.
 # Roles and research summaries checked against the linked institutional sources
-# on 2026-10-10. This is not a complete employment or supervision roster.
+# on 2026-10-10. Supervision periods and roles follow Ryan's published CV.
+# Past supervision is not a claim about degree completion or current employment.
 
 principal_investigator:
   name: Ryan R. Neely III
@@ -19,14 +20,14 @@ research_team:
     initials: HG
     role: Research Fellow in Polar Observational Meteorology
     institution: NCAS, University of Leeds
-    research: Polar aerosol and cloud observations, including long-term measurements over the Greenland Ice Sheet.
+    research: Polar aerosol and cloud observations, including long-term measurements over the Greenland Ice Sheet. Co-leads GAMB2LE with Sarah Barr and Ryan.
     profile_link: https://people.ncas.ac.uk/people/view/472
 
   - name: Sarah Barr
     initials: SB
     role: Research Fellow in Polar Observational Meteorology
     institution: NCAS, University of Leeds
-    research: Polar observations and the development of the GAMB2LE mobile Greenland observatory.
+    research: Polar observations and the development of the GAMB2LE mobile Greenland observatory. Co-leads GAMB2LE with Heather Guy and Ryan.
     profile_link: https://people.ncas.ac.uk/people/view/579
     research_source: https://environment.leeds.ac.uk/research/news/article/5910/forecasting-climate-tipping-points
 
@@ -49,6 +50,7 @@ research_students:
     initials: AM
     role: Postgraduate researcher
     institution: University of Leeds
+    supervision: Primary supervisor since 2022
     research: Mixed-phase clouds in Greenland and Antarctica, combining ICESat-2 lidar with ground-based observations.
     profile_link: https://environment.leeds.ac.uk/see/pgr/11242/andrew-martin
 
@@ -56,6 +58,7 @@ research_students:
     initials: IW
     role: Postgraduate researcher
     institution: University of Leeds
+    supervision: Secondary supervisor since 2022
     research: Arctic aerosol–cloud interactions and the use of observations to improve aerosol representation in climate models.
     profile_link: https://environment.leeds.ac.uk/see/pgr/11267/imogen-wadlow
 
@@ -63,14 +66,76 @@ research_students:
     initials: SH
     role: Postgraduate researcher
     institution: University of Leeds
+    supervision: Primary supervisor since 2022
     research: Radar aeroecology, combining weather-radar observations, insect measurements and atmospheric models.
     profile_link: https://environment.leeds.ac.uk/see/pgr/11230/samuel-hodges
-    # Leeds still lists a postgraduate profile; avoid inferring an end date from
-    # a collaborator's older 2022–2025 project listing.
+    # Both Ryan's current CV and the Leeds profile list ongoing supervision.
+
+  - name: Tommy Matthews
+    initials: TM
+    role: Postgraduate researcher
+    institution: University of Leeds
+    supervision: Secondary supervisor since 2024
+    research: Improving the identification of birds and insects in dual-polarisation weather-radar observations using models of electromagnetic scattering.
+    profile_link: https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3694/tommy-matthews
+    # Listed as Thomas Matthews in Ryan's CV; use the name on his Leeds profile.
+
+  - name: Solanum Foulstone
+    initials: SF
+    role: Postgraduate researcher
+    institution: University of Leeds
+    supervision: Secondary supervisor since 2024
+    research: Bird radar, ornithology and conservation within the BioDAR collaboration.
+    profile_link: https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3683/mx-solanum-foulstone
+    research_source: https://hassalllab.weebly.com/the-lab.html
+
+  - name: Clare Ballantyne
+    initials: CB
+    role: Doctoral researcher
+    supervision: Supervisor since 2026
+    profile_link: https://github.com/rrniii/cv/blob/main/sections/students.md
+    profile_label: Public supervision record
+    # The public CV confirms supervision, but no current institutional profile
+    # was located. Do not infer an affiliation or a project description.
 
   - name: Emily Smeaton
     initials: ES
     role: Postgraduate researcher
     institution: University of Leeds
+    supervision: Primary supervisor since 2026
     research: Sustainably monitoring the mass balance of the Greenland Ice Sheet through the Net Zero Polar Science DTP.
     profile_link: https://nzps-dtp.ac.uk/nzps-researchers/
+
+past_doctoral_supervision:
+  - name: Robert Stillwell
+    years: 2013–2017
+    supervision: Secondary supervisor, University of Colorado Boulder
+    research: Polarimetric lidar
+  - name: Ben Pickering
+    years: 2016–2021
+    supervision: Primary supervisor
+    research: Radar precipitation products and the Disdrometer Verification Network
+  - name: Sarah Shallcross
+    years: 2016–2020
+    supervision: Secondary supervisor
+  - name: Freya Lumb
+    years: 2017–2025
+    supervision: Primary supervisor
+  - name: Josh Ralph Hampton
+    years: 2017–2022
+    supervision: Primary supervisor
+  - name: Sarah Barr
+    years: 2018–2023
+    supervision: Secondary supervisor
+    research: Dust and ice-nucleating particles
+  - name: Leon King
+    years: 2019–2024
+    supervision: Secondary supervisor
+  - name: Heather Guy
+    years: 2019–2023
+    supervision: Primary supervisor
+    research: Polar aerosol–cloud processes and fog
+  - name: Vania López García
+    years: 2019–2025
+    supervision: Secondary supervisor
+    research: Arctic boundary-layer observations

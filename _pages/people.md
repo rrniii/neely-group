@@ -26,15 +26,18 @@ collaborators across disciplines and institutions.
     <p class="mb-0">
       <a href="{{ pi.profile_link }}">University profile</a>
       &nbsp;·&nbsp;
+      <a href="https://rrniii.github.io/cv/">Full CV</a>
+      &nbsp;·&nbsp;
       <a href="mailto:{{ pi.email }}">Contact Ryan</a>
     </p>
   </div>
 </div>
 
-## Research team and collaborators
+## Research collaborators
 
-Colleagues contributing to our polar observing programmes and atmospheric radar
-capability.
+Our polar observing programmes and atmospheric radar capability connect
+colleagues across NCAS and the University of Leeds. Heather Guy and Sarah Barr
+co-lead [GAMB2LE](https://www.gamb2le.co.uk/) with Ryan.
 
 <div class="row mb-4">
 {% for person in site.data.people.research_team %}
@@ -52,11 +55,11 @@ capability.
 {% endfor %}
 </div>
 
-## Research students
+## Current doctoral supervision
 
-Selected research students supervised or co-supervised by Ryan, as listed by the
-University of Leeds and its doctoral training partners. Their institutional
-profiles provide further details of their projects and current appointments.
+Researchers supervised or co-supervised by Ryan, with supervision roles and
+start dates from his [public CV](https://rrniii.github.io/cv/). Linked University
+and doctoral training programme profiles describe their research.
 
 <div class="row mb-4">
 {% for person in site.data.people.research_students %}
@@ -66,12 +69,38 @@ profiles provide further details of their projects and current appointments.
         <span class="d-inline-flex align-items-center justify-content-center rounded-circle bg-light text-dark mr-3 flex-shrink-0" style="width: 3rem; height: 3rem;" aria-hidden="true">{{ person.initials }}</span>
         <h3 class="h5 mb-0">{{ person.name }}</h3>
       </div>
-      <p class="mb-2"><strong>{{ person.role }}</strong><br><span class="text-muted">{{ person.institution }}</span></p>
-      <p>{{ person.research }}</p>
-      <a href="{{ person.profile_link }}" aria-label="{{ person.name | escape }}: research profile">Research profile &rarr;</a>
+      <p class="mb-2"><strong>{{ person.role }}</strong>{% if person.institution %}<br><span class="text-muted">{{ person.institution }}</span>{% endif %}</p>
+      <p class="small text-muted">Ryan: {{ person.supervision | downcase }}</p>
+      {% if person.research %}<p>{{ person.research }}</p>{% endif %}
+      <a href="{{ person.profile_link }}" aria-label="{{ person.name | escape }}: {{ person.profile_label | default: 'research profile' }}">{{ person.profile_label | default: 'Research profile' }} &rarr;</a>
     </div>
   </div>
 {% endfor %}
+</div>
+
+## Past doctoral supervision
+
+Earlier supervision includes polar remote sensing, radar meteorology and
+atmospheric aerosols. These are supervision periods recorded in Ryan's
+[public CV](https://github.com/rrniii/cv/blob/main/sections/students.md), rather
+than current appointments. Heather Guy and Sarah Barr continue to collaborate
+with Ryan as GAMB2LE co-leads.
+
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr><th scope="col">Researcher</th><th scope="col">Supervision period</th><th scope="col">Ryan's role</th></tr>
+    </thead>
+    <tbody>
+      {% for person in site.data.people.past_doctoral_supervision %}
+      <tr>
+        <td><strong>{{ person.name }}</strong>{% if person.research %}<br><span class="small text-muted">{{ person.research }}</span>{% endif %}</td>
+        <td class="text-nowrap">{{ person.years }}</td>
+        <td>{{ person.supervision }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </div>
 
 ## Work with us

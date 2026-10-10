@@ -8,7 +8,7 @@ import sys
 site = Path('_site')
 base = '/neely-group'
 errors = []
-required = ['index.html', 'people/index.html', 'research/index.html', 'publications/index.html', 'teaching/index.html', 'gallery/index.html', 'visit/index.html']
+required = ['index.html', 'people/index.html', 'research/index.html', 'projects/woest/index.html', 'publications/index.html', 'data/index.html', 'teaching/index.html', 'gallery/index.html', 'visit/index.html']
 for name in required:
     if not (site / name).is_file():
         errors.append(f'Missing required page: {name}')

@@ -15,11 +15,12 @@ Forked from [mgrau/graulab.org](https://github.com/mgrau/graulab.org), retaining
 | People and institutional profile links  | `_data/people.yml`                                           |
 | Research areas                          | `_projects/*.md`                                             |
 | Publications                            | `_publications/papers.bib`                                   |
+| Research data and archive links         | `_pages/data.md`                                             |
 | Teaching, fieldwork and contact         | `_pages/teaching.md`, `_pages/gallery.md`, `_pages/visit.md` |
 | Colours and layout additions            | `_sass/_group.scss`                                          |
 | Public contact and research identifiers | `_data/socials.yml`                                          |
 
-Set `selected = {true}` on a BibTeX entry to feature it on the homepage. Publication metadata is maintained explicitly; no automatic citation-count scraping is enabled. People are a selection from linked public profiles, not a complete employment roster.
+Set `selected = {true}` on a BibTeX entry to feature it on the homepage. Publication metadata is maintained explicitly; no automatic citation-count scraping is enabled. People are a selection from linked public profiles, not a complete employment roster. Current and past doctoral supervision are held separately in `_data/people.yml`; supervision periods do not imply current appointments or graduation dates.
 
 ## Build and preview
 

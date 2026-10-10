@@ -4,7 +4,7 @@ permalink: /gallery/
 title: fieldwork
 description: Instruments and observations from our research.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 Our research combines mobile instruments, long-term observations and new platforms for measuring the atmosphere. These photographs show two published examples of that work.
