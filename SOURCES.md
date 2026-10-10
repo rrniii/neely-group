@@ -8,8 +8,17 @@ Checked 10 October 2026. “Neely Research Group” is a working site name for t
 - [NCAS profile](https://people.ncas.ac.uk/people/view/337): institutional context.
 - [GAMB2LE](https://www.gamb2le.co.uk/): autonomous observing platform and project team.
 - [ICECAPS-MELT](https://www.icecapsmelt.org/): polar research context.
-- [NCAS radar overview](https://ncas.ac.uk/see-inside-the-clouds-meet-our-atmospheric-radars/): instrumentation context; the homepage photograph shows the older NXPol1, not NXPol2.
+- [NCAS radar overview](https://ncas.ac.uk/see-inside-the-clouds-meet-our-atmospheric-radars/): instrumentation context; the fieldwork photograph shows the older NXPol1, not NXPol2.
 - [Public CV](https://rrniii.github.io/cv/): research programmes, supervision, teaching and wider publication and dataset record. Compared against public source commit `ace6b51c6736462d6f94a28d43b4b016dd4ae7d8` on 10 October 2026; current institutional profiles and publisher/catalogue records corroborate details where available.
+
+## Research highlights
+
+The homepage and research overview foreground GAMB2LE, TONe–ICO / SnøTroll and radar aeroecology. Broader instrument, cloud and turbulence work remains available as supporting research.
+
+- [GAMB2LE overview](https://www.gamb2le.co.uk/about), [team](https://www.gamb2le.co.uk/team), [AURORA design](https://www.gamb2le.co.uk/about/arctic-hardeded-mobile-observatory) and [Greenland science](https://www.gamb2le.co.uk/about/about-the-greenland-ice-sheet): project aims, shared leadership, platform name and observing-system design. Intended capability is described as development, not evidence of completed Greenland deployments.
+- [NCAS Troll field report](https://ncas.ac.uk/observatory-in-antarctica-enables-scientists-to-study-clouds-like-never-before/) and [TONe–ICO observatory](https://troll-observing-network.github.io/integrated-cloud-observatory/): observatory context, instrumentation, installation and international collaboration.
+- [UKRI SnøTroll project record, UKRI4313](https://gtr.ukri.org/projects?ref=UKRI4313): active NERC award, Ryan's Leeds leadership, public research aims and international context. This current funding record takes precedence over older pages describing a submitted proposal. Private planning notes and correspondence are not published.
+- Radar aeroecology draws on the BioDAR, DRUID, AVOCET and published-study sources listed below.
 
 ## CV comparison and added coverage
 
@@ -40,6 +49,9 @@ The research overview connects instrument development, interpretation and model 
 
 ## Research data
 
+- [GAMB2LE data page](https://www.gamb2le.co.uk/data): official entry point to the AURORA data viewer; no claim of a complete or final research archive.
+- [Mungee et al. data and code](https://doi.org/10.5281/zenodo.16418783) and [source radar archive](https://catalogue.ceda.ac.uk/uuid/82adec1f896af6169112d09cc1174499): links checked against the [published article's data availability statement](https://pmc.ncbi.nlm.nih.gov/articles/PMC12555869/).
+
 - [WOEST collection](https://catalogue.ceda.ac.uk/uuid/36756ff1928f4a1684902b470cda774e/): 2023 campaign, 2025 archive publication.
 - [ICECAPS-ACE collection](https://catalogue.ceda.ac.uk/uuid/f06c6aa727404ca788ee3dd0515ea61a/): Greenland aerosol, meteorological and surface-exchange observations.
 - [DiVeN dataset](https://catalogue.ceda.ac.uk/uuid/602f11d9a2034dae9d0a7356f9aeaf45/): UK particle diameter and fall-speed observations, 2017–2019.
@@ -50,7 +62,7 @@ People's titles and project summaries are based on the institutional URLs stored
 
 ## Images
 
-- `assets/img/fieldwork/nxpol.jpg`: Neely III et al. (2018), Fig. 1, [Atmospheric Measurement Techniques](https://doi.org/10.5194/amt-11-6481-2018), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original NXPol radar at Burn Airfield. File unaltered; the homepage frame may crop its display.
+- `assets/img/fieldwork/nxpol.jpg`: Neely III et al. (2018), Fig. 1, [Atmospheric Measurement Techniques](https://doi.org/10.5194/amt-11-6481-2018), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original NXPol radar at Burn Airfield. File unaltered; retained on the fieldwork page.
 - `assets/img/fieldwork/helikite.jpg`: Guy et al. (2024), Fig. 2, [Atmospheric Chemistry and Physics](https://doi.org/10.5194/acp-24-11103-2024), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Helikite and payload at Summit Station. File unaltered.
 - `assets/img/ryan-neely.jpg`: Ryan's existing professional portrait, reused from his [public digital contact card](https://rrniii.github.io/mecard/).
 - `assets/img/logo.svg` and `favicon.svg`: original geometric N monogram with an observation arc, created for Neely Research Group. Ice white and cyan on deep teal connect the mark to atmospheric observations; the bold silhouette is shared by the header and favicon. This is a group identity, not an institutional logo.

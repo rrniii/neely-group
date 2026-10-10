@@ -4,7 +4,7 @@ title: Polar clouds and aerosols
 permalink: /projects/polar-clouds/
 description: Understanding the particles and clouds that shape the polar surface energy balance.
 img: assets/img/fieldwork/helikite.jpg
-importance: 1
+importance: 4
 ---
 
 Clouds influence how much energy reaches and leaves an ice sheet. Their effect depends on cloud height, phase and water content, and on the aerosol particles from which droplets and ice form. Understanding their radiation and snowfall helps explain the atmosphere's contribution to surface melt and accumulation.
@@ -36,6 +36,8 @@ Helikite observations at Summit Station. [Guy et al. (2024), Fig. 2](https://doi
 ## Antarctic clouds at Troll
 
 Ryan contributed to the international team that installed the **Integrated Cloud Observatory at Troll Station** in 2025. Operated by the Norwegian Polar Institute as part of the Troll Observing Network (TONe), the observatory combines scanning cloud radar, depolarisation lidar, a microwave radiometer and automated radiosonde launches. These measurements help investigate clouds, precipitation and atmospheric conditions in Dronning Maud Land. [Read the NCAS field report](https://ncas.ac.uk/observatory-in-antarctica-enables-scientists-to-study-clouds-like-never-before/) and [explore Troll observations on Cloudnet](https://cloudnet.fmi.fi/site/troll).
+
+Our **SnøTroll** research builds on these observations to examine how the Antarctic escarpment influences clouds and snowfall, and to evaluate weather and climate models. [Explore TONe–ICO and SnøTroll]({{ '/projects/tone-ico-snotroll/' | relative_url }}).
 
 ## Aerosols and the wider climate system
 

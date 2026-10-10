@@ -3,16 +3,14 @@ layout: page
 title: Autonomous observations
 description: Developing instruments and platforms for sustained measurements in remote environments.
 permalink: /projects/autonomous-observations/
-importance: 5
+importance: 7
 ---
 
 Sustained observations in remote environments require reliable instruments, power, communications and data systems. Developing those capabilities is a research challenge in its own right.
 
 ## GAMB2LE and the AURORA observatory
 
-The **Greenland Automated Mass Balance and Boundary Layer Experiment (GAMB2LE)** develops observing systems for places where sustained measurements are scarce. Ryan Neely, Heather Guy and Sarah Barr lead the NCAS project, part of ARIA's Forecasting Tipping Points programme. Its scientific focus is the exchange of energy and mass between the Greenland Ice Sheet and the atmosphere. [Meet the project team](https://www.gamb2le.co.uk/team).
-
-The **Automated Unit for Remote Observations and Research of the Atmosphere (AURORA)** combines remote sensing, in situ instruments and unmanned aircraft with renewable power. Its modular design is intended to support continuous observations in remote environments and provide a platform for additional sensors. [Read about the observatory](https://www.gamb2le.co.uk/about).
+**GAMB2LE** is a principal focus of this work. Its **AURORA** platform brings remote sensing, in situ instruments and uncrewed aircraft together with renewable power to study the Greenland ice–atmosphere interface. [Explore GAMB2LE and AURORA]({{ '/projects/gamb2le/' | relative_url }}).
 
 ## An end-to-end approach
 

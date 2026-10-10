@@ -9,12 +9,12 @@ last_name: Neely III
 contact_note: >
   The best way to reach us is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Atmospheric observations, polar clouds, radar and aeroecology at the University of Leeds and the National Centre for Atmospheric Science.
+  GAMB2LE, TONe–ICO / SnøTroll and radar aeroecology: atmospheric research at the University of Leeds and the National Centre for Atmospheric Science.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Adapted from <a href="https://github.com/mgrau/graulab.org">Grau Lab</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: atmospheric physics, radar, lidar, polar clouds, aeroecology, Leeds, NCAS
+keywords: GAMB2LE, TONe, ICO, SnøTroll, radar aeroecology, Greenland, Antarctica, atmospheric physics, Leeds, NCAS
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

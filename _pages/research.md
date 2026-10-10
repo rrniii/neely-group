@@ -2,14 +2,26 @@
 layout: page
 title: research
 permalink: /research/
-description: Connecting instrument development, atmospheric processes and model evaluation.
+description: GAMB2LE, TONe–ICO / SnøTroll and radar aeroecology—our research highlights.
 nav: true
 nav_order: 3
 ---
 
-We investigate how particles, clouds and atmospheric motion shape weather and the exchange of energy and water with the Earth's surface. Polar clouds are a central focus: their liquid water, ice and snowfall influence the conditions experienced by ice sheets. The same expertise in radar physics and data analysis helps us measure precipitation and study animals moving through the atmosphere.
+Our research highlights connect three settings: Greenland's ice–atmosphere interface, Antarctic clouds and snowfall, and the animals moving through the air. Across **GAMB2LE**, **TONe–ICO / SnøTroll** and **radar aeroecology**, we develop instruments and analysis methods that turn observations into physical and ecological understanding.
 
-Our aim is to turn measurements into physical explanations that can be tested. That means understanding what an instrument detects, how its observations relate to other measurements, and whether a model represents the processes behind them.
+## Research highlights
+
+<div class="research-links featured-research">
+{% assign featured_projects = site.projects | where: 'featured', true | sort: 'importance' %}
+{% for project in featured_projects %}
+  <a href="{{ project.url | relative_url }}">
+    <span class="theme-number">0{{ forloop.index }} / {{ project.highlight_label }}</span>
+    <h3 class="project-title">{{ project.short_title | default: project.title }}</h3>
+    <p>{{ project.description }}</p>
+    <span class="project-link">Explore this research <span aria-hidden="true">↗</span></span>
+  </a>
+{% endfor %}
+</div>
 
 ## How we work
 
@@ -19,13 +31,13 @@ Our aim is to turn measurements into physical explanations that can be tested. T
   <li><span class="theme-number">03 / TEST</span><h3>Evaluate the explanation</h3><p>Combine observations and simulations to test mechanisms. Work on Arctic cloud dissipation examines when a shortage of aerosol particles offers a plausible explanation, and when other processes are needed.</p><a href="https://doi.org/10.5194/acp-22-8973-2022">Testing cloud processes →</a></li>
 </ol>
 
-## Research programmes
+## Wider research
 
 <div class="research-links research-overview">
-{% assign sorted_projects = site.projects | sort: 'importance' %}
+{% assign sorted_projects = site.projects | where_exp: 'project', 'project.featured != true' | sort: 'importance' %}
 {% for project in sorted_projects %}
   <a href="{{ project.url | relative_url }}">
-    <span class="theme-number">Research / 0{{ forloop.index }}</span>
+    <span class="theme-number">Research foundations</span>
     <h3 class="project-title">{{ project.title }}</h3>
     <p>{{ project.description }}</p>
     <span class="project-link">Explore this research <span aria-hidden="true">↗</span></span>

@@ -83,6 +83,59 @@ body {
 .hero-copy > p:not(.eyebrow) {
   max-width: 38rem;
 }
+.research-highlights {
+  padding: 1.5rem 1.75rem;
+  background: var(--global-card-bg-color, #fff);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+}
+.research-highlights > h2 {
+  margin: 0 0 0.25rem;
+}
+.highlight-card {
+  display: block;
+  position: relative;
+  padding: 1.25rem 1.75rem 1.25rem 0;
+  color: var(--global-text-color);
+  text-decoration: none !important;
+}
+.highlight-card + .highlight-card {
+  border-top: 1px solid var(--global-divider-color);
+}
+.highlight-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  margin: 0.4rem 0 0.55rem;
+}
+.highlight-card p {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+  margin: 0;
+}
+.highlight-card:hover h3,
+.highlight-arrow {
+  color: var(--global-theme-color);
+}
+.highlight-arrow {
+  position: absolute;
+  right: 0;
+  top: 3rem;
+  font-size: 1.2rem;
+}
+.featured-research {
+  margin: 2rem 0 3.5rem;
+}
+.featured-research .project-title {
+  font-size: 1.5rem;
+}
+.featured-research .project-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
 .hero-actions {
   display: flex;
   gap: 1.5rem;
@@ -174,7 +227,8 @@ figcaption {
   padding: 0;
   margin: 1.5rem 0 3.5rem;
 }
-#how-we-work {
+#how-we-work,
+#highlights-heading {
   scroll-margin-top: 6.5rem;
 }
 .observation-cycle li {
@@ -248,6 +302,9 @@ button:focus-visible {
 @media (max-width: 991px) {
   .group-hero {
     gap: 2rem;
+  }
+  .research-highlights {
+    padding: 1.25rem;
   }
   .hero-photo img {
     height: 420px;

@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Radar aeroecology
-description: Turning biological radar echoes into observations of life in the air.
+short_title: Radar aeroecology
+description: Using weather radar to study insects and migrating birds, connecting atmospheric physics with biodiversity monitoring and collision-risk assessment at offshore wind farms.
 permalink: /projects/aeroecology/
-importance: 4
+importance: 3
+featured: true
+highlight_label: Biodiversity
 ---
 
 Weather radars detect insects, birds and other airborne targets as well as precipitation. Those echoes offer a way to investigate animal movement and biodiversity over large areas.
@@ -19,6 +22,8 @@ Our work brings atmospheric scientists together with ecologists to understand wh
 ## What the observations reveal
 
 Our 2025 study used weather-radar observations from **2014–2021 across more than 35,000 km² of the UK** to estimate aerial arthropod abundance. It found different trends by region and time of day: nocturnal abundance declined overall, while daytime abundance did not show the same overall decline. The analysis sampled animals flying 500–700 metres above the ground, showing how radar can extend biodiversity observations into a part of the atmosphere that is difficult to monitor directly. These distinctions matter when interpreting large-scale trends and their environmental associations. [Read Mungee et al. (2025)](https://doi.org/10.1111/gcb.70425).
+
+The study's [data and analysis code are openly available on Zenodo](https://doi.org/10.5281/zenodo.16418783), providing a starting point for researchers building on these methods.
 
 ## From biodiversity monitoring to offshore migration
 

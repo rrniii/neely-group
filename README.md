@@ -20,6 +20,8 @@ Forked from [mgrau/graulab.org](https://github.com/mgrau/graulab.org), retaining
 | Colours and layout additions            | `_sass/_group.scss`                                          |
 | Public contact and research identifiers | `_data/socials.yml`                                          |
 
+Set `featured: true`, `importance`, `short_title` and `highlight_label` on a project to control the three homepage highlights and the leading research cards. The featured projects are GAMB2LE, TONe–ICO / SnøTroll and radar aeroecology.
+
 Set `selected = {true}` on a BibTeX entry to feature it on the homepage. Publication metadata is maintained explicitly; no automatic citation-count scraping is enabled. People are a selection from linked public profiles, not a complete employment roster. Current and past doctoral supervision are held separately in `_data/people.yml`; supervision periods do not imply current appointments or graduation dates.
 
 ## Build and preview

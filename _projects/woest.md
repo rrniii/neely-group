@@ -3,7 +3,7 @@ layout: page
 title: WOEST — convection and turbulence
 description: Coordinated observations of turbulent motion to improve our understanding of convective weather.
 permalink: /projects/woest/
-importance: 3
+importance: 6
 ---
 
 Turbulence mixes air within and around clouds, affecting how showers develop and how much rain reaches the ground. These motions are difficult to observe, and their representation remains a challenge for weather models.

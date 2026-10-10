@@ -4,7 +4,7 @@ title: Radar and precipitation
 permalink: /projects/radar/
 description: Revealing the structure of clouds, precipitation and atmospheric motion.
 img: assets/img/fieldwork/nxpol.jpg
-importance: 2
+importance: 5
 ---
 
 Weather radar measures far more than where rain is falling. Polarisation and Doppler measurements provide information about hydrometeors and motion, helping us investigate the physical processes within clouds and precipitation.
