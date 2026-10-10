@@ -1,196 +1,76 @@
-# People data for the Grau Lab website.
-# Rendered via _includes/person_card.liquid and _pages/people.md.
+# Selected public profiles for the Neely research community.
+# Roles and research summaries checked against the linked institutional sources
+# on 2026-10-10. This is not a complete employment or supervision roster.
 
 principal_investigator:
-  name: Matt Grau
-  img: mgrau.jpg
-  role: Assistant Professor
-  department: Department of Physics
-  institution: Old Dominion University
-  office: "Room 2100K, Oceanography &amp; Physical Sciences"
-  location: Norfolk, VA 23529
-  profile_link: /mgrau/
-  cv_link: https://mgrau.github.io/cv/cv.pdf
+  name: Ryan R. Neely III
+  img: ryan-neely.jpg
+  role: Professor of Atmospheric Physics
+  institution: University of Leeds and National Centre for Atmospheric Science
+  research: >
+    Ryan develops radar and lidar observations to understand clouds, aerosols,
+    precipitation and life in the atmosphere. His research connects instrument
+    development, field measurements and atmospheric modelling.
+  profile_link: https://environment.leeds.ac.uk/see/staff/1447/dr-ryan-neely-iii
+  email: R.Neely@leeds.ac.uk
 
-graduate_students:
-  - name: Chamod Hewa
-    img: chamod-hewa.jpg
-    role: Ph.D. Student
-    joined: Summer 2026
-    research: "Ba\u207A Ion Trap"
+research_team:
+  - name: Heather Guy
+    initials: HG
+    role: Research Fellow in Polar Observational Meteorology
+    institution: NCAS, University of Leeds
+    research: Polar aerosol and cloud observations, including long-term measurements over the Greenland Ice Sheet.
+    profile_link: https://people.ncas.ac.uk/people/view/472
 
-  - name: John Hill
-    img: john-hill.jpg
-    role: Ph.D. Student
-    joined: Summer 2025
-    collaborators: Prof. Sylvain Marsillac (ECE)
-    research: Spin-polarized photocathodes
+  - name: Sarah Barr
+    initials: SB
+    role: Research Fellow in Polar Observational Meteorology
+    institution: NCAS, University of Leeds
+    research: Polar observations and the development of the GAMB2LE mobile Greenland observatory.
+    profile_link: https://people.ncas.ac.uk/people/view/579
+    research_source: https://environment.leeds.ac.uk/research/news/article/5910/forecasting-climate-tipping-points
 
-  - name: Urban Kobal
-    img: urban-kobal.png
-    role: Ph.D. Student
-    joined: Summer 2023
-    research: "Ba\u207A Ion Trap"
+  - name: David Dufton
+    initials: DD
+    role: Research Fellow in Radar Hydrometeorology
+    institution: NCAS, University of Leeds
+    research: Weather-radar estimates of precipitation and their uncertainty, with applications in hydrology.
+    profile_link: https://people.ncas.ac.uk/people/view/306
 
-  - name: Greg Blume
-    img: greg-blume.jpg
-    role: Ph.D. Student
-    joined: Fall 2022
-    collaborators: Prof. Sylvain Marsillac (ECE)
-    research: Spin-polarized photocathodes
+  - name: Alex Fearn
+    initials: AF
+    role: Radar Support Engineer
+    institution: NCAS, University of Leeds
+    research: Engineering support for atmospheric radar capability.
+    profile_link: https://people.ncas.ac.uk/people/view/627
 
-  - name: Will Jeffries
-    img: will-jeffries.png
-    role: Ph.D. Student
-    joined: Summer 2022
-    research: "Ba\u207A Ion Trap"
-    awards:
-      - VSGC Graduate STEM Research Fellowship
+research_students:
+  - name: Andrew Martin
+    initials: AM
+    role: Postgraduate researcher
+    institution: University of Leeds
+    research: Mixed-phase clouds in Greenland and Antarctica, combining ICESat-2 lidar with ground-based observations.
+    profile_link: https://environment.leeds.ac.uk/see/pgr/11242/andrew-martin
 
-undergraduate_students:
-  # Keep source data newest-to-oldest: _pages/people.md renders this list in reverse,
-  # so the public page reads oldest-to-newest.
-  - name: Robert Matics
-    img: robert-matics.jpg
-    role: Undergraduate Researcher
-    joined: Fall 2026
-    research: Control system automation
+  - name: Imogen Wadlow
+    initials: IW
+    role: Postgraduate researcher
+    institution: University of Leeds
+    research: Arctic aerosol–cloud interactions and the use of observations to improve aerosol representation in climate models.
+    profile_link: https://environment.leeds.ac.uk/see/pgr/11267/imogen-wadlow
 
-  - name: Cabell Jones
-    img: placeholder.svg
-    role: Undergraduate Researcher
-    joined: Fall 2026
-    research: Instrumentation for oceanographic lidar
+  - name: Samuel Hodges
+    initials: SH
+    role: Postgraduate researcher
+    institution: University of Leeds
+    research: Radar aeroecology, combining weather-radar observations, insect measurements and atmospheric models.
+    profile_link: https://environment.leeds.ac.uk/see/pgr/11230/samuel-hodges
+    # Leeds still lists a postgraduate profile; avoid inferring an end date from
+    # a collaborator's older 2022–2025 project listing.
 
-  - name: Ashton Trexler
-    img: placeholder.svg
-    role: Senior Thesis
-    joined: Fall 2026
-    research: Trapped-ion bosonic gates
-
-  - name: Jeevan Citrarasan
-    img: jeevan-citrarasan.jpg
-    role: Undergraduate Researcher
-    joined: Summer 2026
-    research: "NV\u207B centers"
-
-  - name: Rowan Marsillac
-    img: rowan-marsillac.jpg
-    role: Undergraduate Researcher
-    joined: Summer 2026
-    research: "NV\u207B centers"
-
-  - name: Cody Hardy
-    img: cody-hardy.jpg
-    role: Undergraduate Researcher
-    joined: Summer 2026
-    research: "NV\u207B centers"
-
-  - name: Jacob VanSparrentak-Herring
-    img: jacob-vansparrentak-herring.jpg
-    role: Undergraduate Researcher
-    joined: Summer 2026
-    research: "Digital hardware design"
-
-  - name: Ambrose Orth
-    img: ambrose-orth.jpg
-    role: Undergraduate Researcher
-    joined: Spring 2025
-    research: Thermionic emission
-    awards:
-      - Undergraduate Research and Creativity Fellowship
-
-  - name: Austen Wendt
-    img: austen-wendt.jpg
-    role: Undergraduate Researcher
-    joined: Fall 2024
-    research: "Fitting NV\u207B ODMR spectra"
-
-alumni:
-  - name: Luke Reisig
-    role: REU Student
-    period: Summer 2026
-
-  - name: Joshua Wager
-    role: Undergraduate Researcher
-    period: Fall 2022 – Spring 2026
-
-  - name: Isaiah McCoy
-    role: Senior Thesis
-    period: Spring 2026
-
-  - name: Kaitlyn Levine
-    role: Undergraduate Researcher
-    period: Fall 2023 – Fall 2025
-
-  - name: James Wile
-    role: Undergraduate Researcher
-    period: Summer 2025
-
-  - name: Panagiotis Taoulas
-    role: Undergraduate Researcher
-    period: Spring – Summer 2025
-
-  - name: Lawrence Umali
-    role: Undergraduate Researcher
-    period: Fall 2023 – Fall 2024
-
-  - name: Annika Cote
-    role: Senior Thesis
-    period: Summer 2024
-
-  - name: Jessica Blevins
-    role: Undergraduate Researcher
-    period: Summer 2024
-
-  - name: Michael Hildebrand
-    role: Undergraduate Researcher
-    period: Summer 2024
-
-  - name: Ryan O'Neill
-    role: Senior Thesis
-    period: Summer 2023 – Spring 2024
-
-  - name: Melanie Johnson
-    role: Undergraduate Researcher
-    period: Spring 2023 – Spring 2024
-
-  - name: Michaela Bochman
-    role: Ph.D. Student
-    period: "2023"
-
-  - name: Jacob Chaney
-    role: Undergraduate Researcher
-    period: Summer 2023
-
-  - name: Evan Johnson
-    role: Senior Thesis
-    period: Summer 2022 – Spring 2023
-
-  - name: Thomas Powell
-    role: Senior Thesis
-    period: Fall 2022 – Spring 2023
-
-  - name: David Routhier
-    role: Senior Thesis
-    period: Fall 2022 – Spring 2023
-
-  - name: DaRon Wilkins
-    role: Senior Thesis
-    period: Fall 2022 – Spring 2023
-
-  - name: Wyatt Elliot
-    role: Undergraduate Researcher
-    period: Summer 2022
-
-  - name: Alastair Deans
-    role: Undergraduate Researcher
-    period: Summer 2022
-
-  - name: Tyler Rose
-    role: Undergraduate Researcher
-    period: Spring – Summer 2022
-
-  - name: Anthony Shea
-    role: Senior Thesis
-    period: Spring 2022
+  - name: Emily Smeaton
+    initials: ES
+    role: Postgraduate researcher
+    institution: University of Leeds
+    research: Sustainably monitoring the mass balance of the Greenland Ice Sheet through the Net Zero Polar Science DTP.
+    profile_link: https://nzps-dtp.ac.uk/nzps-researchers/

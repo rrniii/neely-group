@@ -1,152 +1,53 @@
-# Grau Lab Website
+# Neely Research Group
 
-Source code for [www.graulab.org](https://www.graulab.org) — the website for Matt Grau's experimental atomic physics group at Old Dominion University.
+A research-group website for Professor Ryan R. Neely III and colleagues at the University of Leeds and the National Centre for Atmospheric Science.
 
-Built with [Jekyll](https://jekyllrb.com/) using the [al-folio](https://github.com/alshedivat/al-folio) theme.
+**Website:** https://rrniii.github.io/neely-group/
 
-## Local Development
+Forked from [mgrau/graulab.org](https://github.com/mgrau/graulab.org), retaining its Jekyll / al-folio structure, search, theme switcher, structured people data and BibTeX publications. The original MIT licence is retained.
 
-Install dependencies and start the development server:
+## Edit the site
 
-```bash
+| Content                                 | Source                                                       |
+| --------------------------------------- | ------------------------------------------------------------ |
+| Homepage                                | `_pages/about.md`                                            |
+| Name, description and URL               | `_config.yml`                                                |
+| People and institutional profile links  | `_data/people.yml`                                           |
+| Research areas                          | `_projects/*.md`                                             |
+| Publications                            | `_publications/papers.bib`                                   |
+| Teaching, fieldwork and contact         | `_pages/teaching.md`, `_pages/gallery.md`, `_pages/visit.md` |
+| Colours and layout additions            | `_sass/_group.scss`                                          |
+| Public contact and research identifiers | `_data/socials.yml`                                          |
+
+Set `selected = {true}` on a BibTeX entry to feature it on the homepage. Publication metadata is maintained explicitly; no automatic citation-count scraping is enabled. People are a selection from linked public profiles, not a complete employment roster.
+
+## Build and preview
+
+Use Ruby 3.3.5 and Bundler. Docker is an optional alternative using the inherited Compose configuration.
+
+```sh
+bundle config set --local path vendor/bundle
 bundle install
-bundle exec jekyll serve
+JEKYLL_ENV=production bundle exec jekyll build
+python3 scripts/check_site.py
+bundle exec jekyll serve --host 127.0.0.1
 ```
 
-The site will be available at [http://localhost:4000](http://localhost:4000). Jekyll watches for changes and rebuilds automatically.
+The preview is at `http://127.0.0.1:4000/neely-group/`. Ruby dependencies and the build output are ignored by Git.
+
+For formatting:
+
+```sh
+npm ci --ignore-scripts
+npx prettier . --write
+```
 
 ## Deployment
 
-The site deploys automatically via GitHub Actions whenever you push to `main`. The compiled output is pushed to the `gh-pages` branch, which GitHub Pages serves at [www.graulab.org](https://www.graulab.org).
+Push to `main` to build, check internal links and publish through GitHub Actions. In repository Settings → Pages, use **GitHub Actions** as the source. Pull requests build and validate without deploying. The deployed artifact is `_site/`; do not edit generated files.
 
-```bash
-git add <files>
-git commit -m "your message"
-git push origin main
-```
+`url` and `baseurl` in `_config.yml` must change together if the hosting location changes. No custom domain is configured.
 
-Monitor the build in the [Actions tab](https://github.com/mgrau/graulab.org/actions). To trigger a manual re-deploy without a new commit: Actions → Deploy site → Run workflow.
+## Sources and media
 
-**Branches:**
-
-- `main` — source code (edit this)
-- `gh-pages` — compiled output, managed by GitHub Actions (do not edit)
-
-## Site Structure
-
-| Page         | URL              | Source                                                   |
-| ------------ | ---------------- | -------------------------------------------------------- |
-| About        | `/`              | `_pages/about.md`                                        |
-| People       | `/people/`       | `_pages/people.md`, `_data/people.yml`                   |
-| Research     | `/research/`     | `_pages/research.md`, `_projects/`                       |
-| Publications | `/publications/` | `_pages/publications.md`, `_publications/papers.bib`     |
-| Teaching     | `/teaching/`     | `_pages/teaching.md`, `_teaching/`                       |
-| Gallery      | `/gallery/`      | `_pages/gallery.md`                                      |
-| Intranet     | `/intranet/`     | `_pages/intranet.md` (redirects to internal.graulab.org) |
-
-## Updating Content
-
-### People
-
-Edit `_data/people.yml`. The file has four sections: `principal_investigator`, `graduate_students`, `undergraduate_students`, and `alumni`.
-
-```yaml
-graduate_students:
-  - name: Full Name
-    img: filename.jpg # photo in assets/img/
-    role: Ph.D. Student
-    joined: Fall 2026
-    research: Brief project description
-    awards: # optional
-      - Award name
-```
-
-Alumni entries only need `name`, `role`, and `period`.
-
-### Publications
-
-Add BibTeX entries to `_publications/papers.bib`. Note: this is a non-default location — al-folio normally uses `_bibliography/papers.bib`.
-
-```bibtex
-@article{smith2026,
-  author      = {Smith, Jane and Grau, Matt},
-  title       = {Title of the paper},
-  journal     = PRL,
-  year        = {2026},
-  abbr        = {PRL},
-  abstract    = {Abstract text.},
-  pdf         = {/assets/pdf/smith2026.pdf},
-  html        = {https://doi.org/10.1103/...},
-  arxiv       = {2601.12345},
-  selected    = {true},
-  bibtex_show = {true},
-}
-```
-
-Journal string macros (e.g. `PRL`, `PRA`) are defined at the top of `papers.bib`. The `selected = {true}` field features the paper on the homepage.
-
-### Research Projects
-
-Add or edit Markdown files in `_projects/`. Front matter controls display on the Research page:
-
-```markdown
----
-layout: page
-title: Project Title
-description: One-line description.
-img: assets/img/projects/myimage.jpg
-importance: 1 # lower = shown first
-category: ion trapping # current categories: "ion trapping", "precision measurement"
----
-```
-
-To cite relevant publications on a project page:
-
-```liquid
-<span style="display:none">{% cite key1 key2 %}</span>
-<div class="publications">
-  {% bibliography --cited --group_by none --sort_by year --order descending %}
-</div>
-```
-
-### News
-
-Add Markdown files to `_news/`. For short items shown inline on the homepage:
-
-```markdown
----
-layout: post
-date: 2026-03-18 00:00:00-0500
-inline: true
----
-
-News item text here.
-```
-
-### Teaching
-
-Add Markdown files to `_teaching/` (note: al-folio's default collection is `_teachings/`). The collection name is configured in `_config.yml`.
-
-### Gallery
-
-Add images to `assets/img/gallery/` and list them in the front matter of `_pages/gallery.md`.
-
-### Calendar
-
-The calendar at `/calendar/` uses [FullCalendar](https://fullcalendar.io/) connected to a Google Calendar via `_includes/fullcalendar.liquid`. The API key and calendar ID are set in `_pages/calendar.md`. Events are color-coded by type (classes, office hours, talks, meetings, travel) and private events display as "Private".
-
-## Customizations from al-folio
-
-Changes made to the upstream [al-folio](https://github.com/alshedivat/al-folio) theme:
-
-- **Color theme**: Custom "Grau" palette (Icelandic/volcanic aesthetic) defined in `_sass/_variables.scss` and applied in `_sass/_themes.scss`. Light mode uses warm gray + deep cyan + dark gold; dark mode uses volcanic dark + glacial cyan + amber.
-- **Publications directory**: `_publications/papers.bib` instead of `_bibliography/papers.bib`. The scholar source is set in `_config.yml` under `scholar.source`.
-- **Teaching collection**: `_teaching/` instead of `_teachings/`. Declared in `_config.yml` under `collections`.
-- **Calendar page**: FullCalendar 6 integration at `/calendar/` via `_includes/fullcalendar.liquid`.
-- **Intranet redirect**: `_pages/intranet.md` redirects to `https://internal.graulab.org` via inline JavaScript.
-
-## References
-
-- [al-folio](https://github.com/alshedivat/al-folio) — Jekyll theme (FAQ, troubleshooting, full feature docs)
-- [Jekyll documentation](https://jekyllrb.com/docs/)
-- [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) — BibTeX/publications support
+See [SOURCES.md](SOURCES.md) for public content sources and image credits. Private correspondence, calendars and unpublished proposal material are not included. The upstream lab's content, calendar configuration, contact information and assets have been removed from the working site; they remain recoverable in Git history.

@@ -2,13 +2,26 @@
 layout: page
 permalink: /teaching/
 title: teaching
+description: Learning through atmospheric observations, data and fieldwork.
 nav: true
 nav_order: 5
 ---
 
-| Course    | Title                                          | Terms                         |     |
-| --------- | ---------------------------------------------- | ----------------------------- | --- |
-| PHYS 137T | Introduction to Quantum Science and Technology | Fall 2023, 2024, 2025         |     |
-| PHYS 456  | Intermediate Quantum Mechanics                 | Spring 2022, 2023, 2024, 2025 |     |
-| PHYS 411  | Introduction to Atomic Physics                 | Fall 2022                     |     |
-| PHYS 297  | Introduction to Undergraduate Research         | Fall 2022; Spring 2023        |     |
+## Learning through observation
+
+Our research connects atmospheric physics with practical measurement: choosing an instrument, designing an experiment, working with observations and understanding uncertainty.
+
+Ryan teaches at the University of Leeds and supervises undergraduate and postgraduate research. His public [University profile](https://environment.leeds.ac.uk/see/staff/1447/dr-ryan-neely-iii) describes his teaching and supervision interests.
+
+## Research-led learning
+
+- **Atmospheric physics:** clouds, aerosols, radiation and precipitation.
+- **Remote sensing:** what radar and lidar reveal about the atmosphere, and the limits of those measurements.
+- **Field observations:** combining instruments to answer a scientific question.
+- **Data analysis:** reproducible workflows and the interpretation of environmental measurements.
+
+For current module details, timetables and assessment information, use the University's official course materials.
+
+## Research projects and supervision
+
+Students interested in observational atmospheric science, polar processes or radar aeroecology are welcome to [get in touch]({{ '/visit/' | relative_url }}) to discuss potential projects. See the [research pages]({{ '/research/' | relative_url }}) for examples of the questions we work on.

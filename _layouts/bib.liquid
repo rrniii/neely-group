@@ -48,7 +48,7 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">{{ entry.title | bibtex_title }}</div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -62,6 +62,10 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- if author.suffix != blank -%}
+          {%- assign author_suffix = author.suffix | escape -%}
+          {%- assign author_last_html = author_last_html | append: ' ' | append: author_suffix -%}
+        {%- endif -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -111,6 +115,9 @@
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% if author.suffix != blank %}
+            {% assign more_authors_show = more_authors_show | append: ' ' | append: author.suffix %}
+          {% endif %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
@@ -189,16 +196,25 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
+        <button type="button" class="award btn btn-sm z-depth-0" data-disclosure aria-controls="award-{{ entry.key }}" aria-expanded="false">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
-        </a>
+        </button>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract" role="button" title="Abstract" aria-label="Show abstract" style="cursor: pointer;"
-          ><img
+        <button
+          type="button"
+          class="abstract btn btn-sm z-depth-0"
+          title="Abstract"
+          aria-label="Abstract"
+          data-disclosure
+          aria-controls="abstract-{{ entry.key }}"
+          aria-expanded="false"
+        >
+          <img
             src="https://img.shields.io/badge/abstract-5E6C84?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTY0IDBDMjguNyAwIDAgMjguNyAwIDY0VjQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NEgzMjBjMzUuMyAwIDY0LTI4LjcgNjQtNjRWMTYwSDI1NmMtMTcuNyAwLTMyLTE0LjMtMzItMzJWMEg2NHpNMjU2IDBWMTI4SDM4NEwyNTYgMHpNMTEyIDI1NkgyNzJjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZIMTEyYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2em0wIDY0SDI3MmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkgxMTJjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6bTAgNjRIMjcyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2SDExMmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4="
             alt="Abstract"
-        ></a>
+          >
+        </button>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" role="button" title="DOI" aria-label="DOI: {{ entry.doi }}"
@@ -218,7 +234,9 @@
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <button type="button" class="bibtex btn btn-sm z-depth-0" data-disclosure aria-controls="bibtex-{{ entry.key }}" aria-expanded="false">
+          Bib
+        </button>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -250,7 +268,9 @@
         {% endif %}
       {% endif %}
       {% if entry.video and site.enable_video_embedding %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+        <button type="button" class="abstract btn btn-sm z-depth-0" data-disclosure aria-controls="video-{{ entry.key }}" aria-expanded="false">
+          Video
+        </button>
       {% elsif entry.video %}
         <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
       {% endif %}
@@ -377,21 +397,21 @@
 
     {% if entry.award %}
       <!-- Hidden Award block -->
-      <div class="award hidden d-print-inline">
+      <div id="award-{{ entry.key }}" class="award hidden d-print-inline" aria-hidden="true">
         <p>{{ entry.award | markdownify }}</p>
       </div>
     {% endif %}
 
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract hidden">
+      <div id="abstract-{{ entry.key }}" class="abstract hidden" aria-hidden="true">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
+      <div id="bibtex-{{ entry.key }}" class="bibtex hidden" aria-hidden="true">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
@@ -400,7 +420,7 @@
 
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
-      <div class="abstract hidden">
+      <div id="video-{{ entry.key }}" class="abstract hidden" aria-hidden="true">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}

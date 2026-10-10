@@ -2,23 +2,24 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Grau Lab # the website title (if blank, full name will be used instead)
-first_name: Matt
-middle_name:
-last_name: Grau
+title: Neely Research Group
+first_name: Ryan
+middle_name: R.
+last_name: Neely III
 contact_note: >
   The best way to reach us is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Web page for Matt Grau's research group at ODU, focusing on experimental atomic physics, using ion traps for quantum information and precision measurement.
+  Atmospheric observations, polar clouds, radar and aeroecology at the University of Leeds and the National Centre for Atmospheric Science.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Adapted from <a href="https://github.com/mgrau/graulab.org">Grau Lab</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: ion trapping, quantum information, precision measurement, atomic physics, ODU, Old Dominion University
+keywords: atmospheric physics, radar, lidar, polar clouds, aeroecology, Leeds, NCAS
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://www.graulab.org # the base hostname & protocol for your site
-baseurl: # leave blank — site is served from the root domain
+url: https://rrniii.github.io
+baseurl: /neely-group
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -53,14 +54,14 @@ external_services:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
-bib_search: false
+bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1140px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -90,8 +91,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Grau Lab News # blog_name will be displayed in your blog page
-blog_description: News from the Grau Lab — new papers, awards, and announcements
+blog_name: Neely Research Group News # blog_name will be displayed in your blog page
+blog_description: Research updates from the Neely Research Group
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -143,6 +144,13 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - SOURCES.md
+  - .openai
+  - TROUBLESHOOTING.md
+  - scripts/
+  - verification/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -163,7 +171,6 @@ exclude:
   - readme_preview/
   - vendor
 keep_files:
-  - CNAME
   - .nojekyll
 
 # Plug-ins
@@ -235,13 +242,15 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Grau]
-  first_name: [Matt, M., M, M. C.]
+  last_name: [Neely, Neely III]
+  first_name: [Ryan, Ryan R., R. R., R.]
   style: american-physics-society
   locale: en
 
   source: /_publications/
   bibliography: papers.bib
+  sort_by: year
+  order: descending
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -261,10 +270,10 @@ scholar:
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  google_scholar: false # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -302,7 +311,7 @@ max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+enable_publication_thumbnails: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
@@ -322,7 +331,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # source images are sized for the web; enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -362,9 +371,9 @@ enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
+enable_project_categories: false # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------

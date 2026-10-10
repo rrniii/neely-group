@@ -2,14 +2,16 @@
 layout: page
 title: research
 permalink: /research/
-description: Research projects in Grau Lab.
+description: Atmospheric observations, polar processes and radar aeroecology.
 nav: true
 nav_order: 3
-display_categories: [ion trapping, photocathodes]
+display_categories: []
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+We develop and use observations to understand the atmosphere, from aerosol particles to precipitation systems and biological activity in the air.
+
+<!-- Research projects -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

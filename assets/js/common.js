@@ -1,19 +1,16 @@
 $(document).ready(function () {
-  // add toggle functionality to abstract, award and bibtex buttons
-  $("a.abstract").click(function () {
-    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.award").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+  // Native buttons support Enter and Space; keep disclosure state in sync.
+  $(".links button[data-disclosure]").click(function () {
+    const $button = $(this);
+    const $entry = $button.closest(".links").parent();
+    const $panel = $(document.getElementById($button.attr("aria-controls")));
+    if (!$panel.length) return;
+
+    const expanded = !$panel.hasClass("open");
+    $entry.children(".hidden").removeClass("open").attr("aria-hidden", "true");
+    $entry.find(".links button[data-disclosure]").attr("aria-expanded", "false");
+    $panel.toggleClass("open", expanded).attr("aria-hidden", String(!expanded));
+    $button.attr("aria-expanded", String(expanded));
   });
   $("a").removeClass("waves-effect waves-light");
 
