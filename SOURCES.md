@@ -53,7 +53,7 @@ People's titles and project summaries are based on the institutional URLs stored
 - `assets/img/fieldwork/nxpol.jpg`: Neely III et al. (2018), Fig. 1, [Atmospheric Measurement Techniques](https://doi.org/10.5194/amt-11-6481-2018), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original NXPol radar at Burn Airfield. File unaltered; the homepage frame may crop its display.
 - `assets/img/fieldwork/helikite.jpg`: Guy et al. (2024), Fig. 2, [Atmospheric Chemistry and Physics](https://doi.org/10.5194/acp-24-11103-2024), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Helikite and payload at Summit Station. File unaltered.
 - `assets/img/ryan-neely.jpg`: Ryan's existing professional portrait, reused from his [public digital contact card](https://rrniii.github.io/mecard/).
-- `assets/img/logo.svg` and `favicon.svg`: new geometric radar motif created for this fork. It is not an institutional logo.
+- `assets/img/logo.svg` and `favicon.svg`: original geometric N monogram with an observation arc, created for Neely Research Group. Ice white and cyan on deep teal connect the mark to atmospheric observations; the bold silhouette is shared by the header and favicon. This is a group identity, not an institutional logo.
 
 ## Software attribution
 

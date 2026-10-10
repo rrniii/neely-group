@@ -2,9 +2,9 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      <a class="navbar-brand title" href="{{ site.baseurl }}/" style="display: flex; align-items: center; gap: 10px;">
-        <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="{{ site.title }}" style="height: 50px; width: auto;">
-        <span class="font-weight-bold">Neely<span class="brand-subtitle">Research Group</span></span>
+      <a class="navbar-brand title" href="{{ '/' | relative_url }}">
+        <img class="brand-mark" src="{{ '/assets/img/logo.svg' | relative_url }}" alt="" width="50" height="50">
+        <span class="brand-name">Neely<span class="brand-subtitle">Research Group</span></span>
       </a>
       <!-- Navbar Toggle -->
       <button
