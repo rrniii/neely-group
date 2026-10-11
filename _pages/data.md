@@ -2,7 +2,7 @@
 layout: page
 permalink: /data/
 title: data
-description: Find polar observations, radar ecology datasets and reusable analysis tools from our research programmes and collaborations.
+description: Find polar observations, radar ecology datasets, class measurements and reusable analysis tools.
 nav: true
 nav_order: 5
 ---
@@ -15,11 +15,12 @@ Find observations, analysis code and methods you can use in your own research. T
     <li><a href="#polar-observations">Explore polar measurements</a> — project viewers, Cloudnet and archived field observations.</li>
     <li><a href="#radar-aeroecology">Download a radar ecology study</a> — published observations with supporting code.</li>
     <li><a href="#analysis-tools">Reproduce an analysis or explore software</a> — co-location methods and UK BirdCast development.</li>
+    <li><a href="#teaching-data">Find your class instruments</a> — Advanced Field Skills measurements, history and CSV downloads.</li>
     <li><a href="#weather-and-climate">Find weather and climate archives</a> — WOEST, DiVeN and volcanic emissions.</li>
   </ul>
 </section>
 
-<nav class="section-nav" aria-label="On this page"><a href="#polar-observations">Polar observations</a><a href="#radar-aeroecology">Radar aeroecology</a><a href="#analysis-tools">Analysis tools</a><a href="#weather-and-climate">Weather and climate</a><a href="#using-and-citing-the-data">Using the data</a></nav>
+<nav class="section-nav" aria-label="On this page"><a href="#polar-observations">Polar observations</a><a href="#radar-aeroecology">Radar aeroecology</a><a href="#analysis-tools">Analysis tools</a><a href="#weather-and-climate">Weather and climate</a><a href="#teaching-data">Class data</a><a href="#using-and-citing-the-data">Using the data</a></nav>
 
 ## Polar observations
 
@@ -29,7 +30,7 @@ Find observations, analysis code and methods you can use in your own research. T
 
 The GAMB2LE project provides a data viewer for its AURORA observatory. Follow the project data page for access and current observing activity; consult the individual data products for their location, coverage and processing status.
 
-[Explore GAMB2LE data](https://www.gamb2le.co.uk/data) · [About GAMB2LE]({{ '/projects/gamb2le/' | relative_url }})
+[Open the AURORA data viewer](https://data.gamb2le.co.uk/app) · [GAMB2LE data guidance](https://www.gamb2le.co.uk/data) · [About GAMB2LE]({{ '/projects/gamb2le/' | relative_url }})
 
 ### TONe–ICO: Antarctic cloud observations
 
@@ -38,6 +39,16 @@ The GAMB2LE project provides a data viewer for its AURORA observatory. Follow th
 The international Troll Integrated Cloud Observatory combines radar, lidar and supporting measurements to observe Antarctic clouds and precipitation. Cloudnet records begin in **February 2025**, with cloud classification and atmospheric-profile products. Check each product for available dates and processing status; the start date does not imply uninterrupted coverage.
 
 [Browse Troll on Cloudnet](https://cloudnet.fmi.fi/site/troll) · [Observatory and data guidance](https://www.esr.org/data-products/tone-ico/) · [TONe–ICO / SnøTroll]({{ '/projects/tone-ico-snotroll/' | relative_url }})
+
+### ICECAPS: browse Summit observations
+
+**Summit Station, Greenland · NOAA instrument-data browser and access pages**
+
+The NOAA Summit browser displays cloud, atmospheric and precipitation measurements, instrument diagnostics and derived products from ICECAPS. The observatory page also provides instrument descriptions and direct data-access links, including the CAPABL lidar and cloud radar.
+
+The browser currently identifies **August 2025** as its last measurement date and notes a break in ICECAPS operations from **June 2021 to May 2022**. Use the individual product records to check coverage and processing; this is a route into historical observations, rather than a live station feed.
+
+[Open the Summit data browser](https://psl.noaa.gov/arctic/observatories/summit/browser/) · [Instrument information and data access](https://psl.noaa.gov/arctic/observatories/summit/)
 
 ### ICECAPS-MELT: snow properties at Camp Raven
 
@@ -85,11 +96,11 @@ The resources accompanying [Lukach et al. (2024)](https://doi.org/10.1016/j.ecoi
 
 ### UK BirdCast / Live UK Bird Maps
 
-**Weather-radar passage observations · Open development repository**
+**Weather-radar passage observations · Historical data viewer and open source code**
 
 This project presents retrospective UK bird-passage observations and weather-linked historical reanalysis. Radar passage describes movement through sampled airspace; it is not a census of bird populations or a forecast of future migration. The repository documents the methods, data coverage and development status.
 
-[Explore the project and source code](https://github.com/rrniii/uk-birdcast) · [The science behind radar aeroecology]({{ '/projects/aeroecology/' | relative_url }})
+[Open UK Bird Maps](http://130.246.212.190/live-uk-bird-maps/) · [Explore the project and source code](https://github.com/rrniii/uk-birdcast) · [The science behind radar aeroecology]({{ '/projects/aeroecology/' | relative_url }})
 
 ## Weather and climate
 
@@ -116,6 +127,16 @@ The Disdrometer Verification Network measured particle diameter and fall speed a
 Developed by Ryan Neely and Anja Schmidt, VolcanEESM brings together volcanic sulphur dioxide emission amounts and locations for Earth system models. The linked collection documents coverage from 1850 to 2015; consult its individual dataset records for the version and coverage appropriate to your work.
 
 [Explore the VolcanEESM collection](https://catalogue.ceda.ac.uk/uuid/bfbd5ec825fa422f9a858b14ae7b2a0d/) · [Aerosols and climate research]({{ '/projects/aerosols-climate/' | relative_url }})
+
+## Teaching data
+
+### Advanced Field Skills instruments
+
+**University of Leeds · Public class dashboard**
+
+The Advanced Field Skills dashboard brings together class instrument measurements, station histories and CSV downloads. Students can select a station and inspect temperature, humidity and pressure observations to support field analysis and instrument comparisons. Check each station's timestamps and available variables before using a series.
+
+[Open the class instrument dashboard](https://130.246.212.101/advanced-field-skills/) · [Module information and student resources]({{ '/teaching/#resources-for-students' | relative_url }})
 
 ## Using and citing the data
 

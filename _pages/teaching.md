@@ -13,13 +13,26 @@ Our teaching connects atmospheric physics with practical measurement: choosing a
 
 Ryan teaches at the University of Leeds and contributes to NCAS training and international radar workshops. The roles below are drawn from his [public teaching record](https://github.com/rrniii/cv/blob/main/sections/teaching.md).
 
+<nav class="section-nav" aria-label="On this page">
+  <a href="#university-teaching">University classes</a>
+  <a href="#resources-for-students">Student resources</a>
+  <a href="#ncas-and-international-training">NCAS and workshops</a>
+  <a href="#learn-radar-aeroecology-online">Learn online</a>
+</nav>
+
 ## University teaching
+
+The links below go directly to the **2026/27 module descriptions**, including learning outcomes, assessment and the University's timetable links.
 
 ### Observing Weather and Climate: Advanced Field Skills
 
 **SOEE3791 / SOEE5096M · Module leader and lecturer since 2025**
 
-Students design, build and deploy instruments, collect their own environmental data and assess measurement uncertainty. A residential field course is followed by instrument workshops and project work in Leeds. Ryan leads the curriculum, field teaching, assessment and instrumentation, including data quality and safe field practice. See the [2026/27 undergraduate module catalogue](https://catalogue.leeds.ac.uk/Module/UG/SOEE/3791/202627) for the official module description.
+Students design, build and deploy instruments, collect their own environmental data and assess measurement uncertainty. A residential field course is followed by instrument workshops and project work in Leeds. Ryan leads the curriculum, field teaching, assessment and instrumentation, including data quality and safe field practice.
+
+[SOEE3791: undergraduate module](https://catalogue.leeds.ac.uk/Module/UG/SOEE/3791/202627) · [SOEE5096M: postgraduate module](https://catalogue.leeds.ac.uk/Module/TP/SOEE/5096M/202627)
+
+**[Open the Advanced Field Skills instrument dashboard](https://130.246.212.101/advanced-field-skills/)** to explore station measurements and their history, and download observations as CSV files. The dashboard is public and does not require a course login.
 
 ### Physical Climate Change, Impacts and Mitigation
 
@@ -27,13 +40,24 @@ Students design, build and deploy instruments, collect their own environmental d
 
 Ryan designed the observational teaching, Leeds Farm fieldwork and associated data analysis, connecting climate science with direct environmental measurements.
 
+[SOEE5860M: module description](https://catalogue.leeds.ac.uk/Module/TP/SOEE/5860M/202627)
+
 ### Atmosphere
 
 **SOEE1281 · Lecturer since 2019**
 
 Undergraduate teaching in atmospheric science, building on Ryan's earlier contribution to _The Atmosphere of Planet Earth_ (SOEE1280, 2015–2019).
 
-Current timetables, assessment requirements and learning materials are provided through the University's official module resources.
+[SOEE1281: module description](https://catalogue.leeds.ac.uk/Module/UG/SOEE/1281/202627)
+
+## Resources for students
+
+- **Field-course observations:** the public [Advanced Field Skills instrument dashboard](https://130.246.212.101/advanced-field-skills/) provides station measurements, historical plots and CSV downloads for practical data analysis.
+- **Course materials and assignments:** enrolled students should use their module area in [Minerva](https://minerva.leeds.ac.uk/) for teaching materials, reading lists, assessment instructions and announcements. A University login is required.
+- **Observations to explore:** the [research data page]({{ '/data/' | relative_url }}) links to project viewers, archived observations and published analysis code. It includes [polar observations]({{ '/data/#polar-observations' | relative_url }}) and [weather and climate datasets]({{ '/data/#weather-and-climate' | relative_url }}) for exploring how measurements become research evidence.
+- **Radar methods and examples:** start with the [analysis software]({{ '/data/#analysis-tools' | relative_url }}) or the [UK Atmospheric Radar Community's teaching resources](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community/tools-resources).
+
+Research datasets and community resources supplement the module materials; use the instructions in Minerva for assessed work.
 
 ## Field teaching and educational leadership
 
@@ -43,10 +67,12 @@ His Leeds field teaching began with **Environmental Research and Career Skills (
 
 ## NCAS and international training
 
-- **NCAS Introduction to Atmospheric Science:** course lead, 2020–2023, with responsibility for academic design, instructor coordination and evaluation of four annual five-day courses; lecturer in 2024.
+- **[NCAS Introduction to Atmospheric Science](https://ncas.ac.uk/study-with-us/introduction-to-atmospheric-science/):** course lead, 2020–2023, with responsibility for academic design, instructor coordination and evaluation of four annual five-day courses; lecturer in 2024.
 - **NCAS Atmospheric Measurement Summer School:** scientific lead for the two-week international course in 2019; Boundary Layer Module Leader, 2014–2018, combining lectures, observations on Goatfell and data-analysis workshops.
-- **NCAS Introduction to Atmospheric Radar:** lecturer in 2024, including radar observations and Python/Jupyter analysis.
-- **International Radar Aeroecology Workshops:** lecturer in Delaware in 2024 and invited lecturer in Amsterdam in 2026, teaching radar polarimetry, biological-target classification and data quality.
+- **[NCAS Introduction to Atmospheric Radar](https://ncas.ac.uk/study-with-us/introduction-to-atmospheric-radar/):** lecturer in 2024, including radar observations and Python/Jupyter analysis.
+- **International Radar Aeroecology Workshops:** lecturer in [Delaware in 2024](https://sites.udel.edu/aeroecologyprogram/irac2024/) and invited lecturer in [Amsterdam in 2026](https://hirad.science/irac-2026/#training-workshop), teaching radar polarimetry, biological-target classification and data quality.
+
+For current field-training opportunities, see NCAS's [Summer Training in Observation, Research, and Modelling (STORM)](https://ncas.ac.uk/study-with-us/summer-training-in-observation-research-and-modelling/), formerly the Atmospheric Measurement and Modelling Summer School. The official course pages provide current dates, eligibility, fees and application arrangements; the teaching roles above describe Ryan's contributions in the stated years.
 
 ## Radar training and a wider community
 

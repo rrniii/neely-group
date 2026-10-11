@@ -12,6 +12,7 @@ Forked from [mgrau/graulab.org](https://github.com/mgrau/graulab.org), retaining
 | --------------------------------------- | ------------------------------------------------------------------- |
 | Homepage                                | `_pages/about.md`                                                   |
 | Name, description and URL               | `_config.yml`                                                       |
+| Individual research profiles            | `_pages/clare-ballantyne.md`                                        |
 | People and institutional profile links  | `_data/people.yml`                                                  |
 | Flagship project summaries              | `_data/project_briefs.yml`, `_includes/project_brief.liquid`        |
 | Joining and source policy               | `_pages/join.md`, `_pages/about-site.md`                            |

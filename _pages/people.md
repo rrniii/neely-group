@@ -84,7 +84,11 @@ and doctoral training programme profiles describe their research.
       <p class="small person-detail">Ryan: {{ person.supervision | downcase }}</p>
       {% if person.research %}<p>{{ person.research }}</p>{% endif %}
       {% if person.programme_path %}<p><a href="{{ person.programme_path | relative_url }}">{{ person.programme_label }} &rarr;</a></p>{% endif %}
-      <a href="{{ person.profile_link }}" aria-label="{{ person.name | escape }}: {{ person.profile_label | default: 'research profile' }}">{{ person.profile_label | default: 'Research profile' }} &rarr;</a>
+      {% if person.profile_path %}
+        <a href="{{ person.profile_path | relative_url }}">{{ person.profile_label | default: 'Research profile' }} &rarr;</a>
+      {% else %}
+        <a href="{{ person.profile_link }}" aria-label="{{ person.name | escape }}: {{ person.profile_label | default: 'research profile' }}">{{ person.profile_label | default: 'Research profile' }} &rarr;</a>
+      {% endif %}
     </div>
   </div>
 {% endfor %}

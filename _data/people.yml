@@ -133,10 +133,13 @@ research_students:
     initials: CB
     role: Doctoral researcher
     supervision: Supervisor since 2026
+    research: An Oxford Earth Sciences graduate with Antarctic field experience at Port Lockroy. Her work with the UK Antarctic Heritage Trust combined base operations, public engagement and penguin monitoring during the 2022–23 season.
+    profile_path: /people/clare-ballantyne/
     profile_link: https://github.com/rrniii/cv/blob/main/sections/students.md
-    profile_label: Public supervision record
-    # The public CV confirms supervision, but no current institutional profile
-    # was located. Do not infer an affiliation or a project description.
+    profile_label: About Clare
+    # Current supervision follows Ryan's public CV. Background is supported by
+    # Oxford Earth Sciences and Clare's bylined UKAHT field account; see SOURCES.md.
+    # No current institution or doctoral topic is inferred from those past roles.
 
   - name: Emily Smeaton
     initials: ES
