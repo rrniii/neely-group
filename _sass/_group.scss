@@ -414,7 +414,8 @@ button:focus-visible {
 // Readable routes through the longer research, people and data pages.
 .post article h2[id],
 .post article h3[id],
-.group-section[id] {
+.group-section[id],
+.group-home h2[id] {
   scroll-margin-top: 7rem;
 }
 .section-nav {
