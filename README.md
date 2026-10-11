@@ -8,21 +8,24 @@ Forked from [mgrau/graulab.org](https://github.com/mgrau/graulab.org), retaining
 
 ## Edit the site
 
-| Content                                 | Source                                                       |
-| --------------------------------------- | ------------------------------------------------------------ |
-| Homepage                                | `_pages/about.md`                                            |
-| Name, description and URL               | `_config.yml`                                                |
-| People and institutional profile links  | `_data/people.yml`                                           |
-| Research areas                          | `_projects/*.md`                                             |
-| Publications                            | `_publications/papers.bib`                                   |
-| Research data and archive links         | `_pages/data.md`                                             |
-| Teaching, fieldwork and contact         | `_pages/teaching.md`, `_pages/gallery.md`, `_pages/visit.md` |
-| Colours and layout additions            | `_sass/_group.scss`                                          |
-| Public contact and research identifiers | `_data/socials.yml`                                          |
+| Content                                 | Source                                                              |
+| --------------------------------------- | ------------------------------------------------------------------- |
+| Homepage                                | `_pages/about.md`                                                   |
+| Name, description and URL               | `_config.yml`                                                       |
+| People and institutional profile links  | `_data/people.yml`                                                  |
+| Research areas                          | `_projects/*.md`                                                    |
+| Publications                            | `_publications/papers.bib`                                          |
+| Homepage research findings              | `_data/research_findings.yml`, `_includes/research_findings.liquid` |
+| Research data and archive links         | `_pages/data.md`                                                    |
+| Teaching, fieldwork and contact         | `_pages/teaching.md`, `_pages/gallery.md`, `_pages/visit.md`        |
+| Colours and layout additions            | `_sass/_group.scss`                                                 |
+| Public contact and research identifiers | `_data/socials.yml`                                                 |
 
 Set `featured: true`, `importance`, `short_title` and `highlight_label` on a project to control the three homepage highlights and the leading research cards. The featured projects are GAMB2LE, TONe–ICO / SnøTroll and radar aeroecology.
 
 Set `selected = {true}` on a BibTeX entry to feature it on the homepage. Publication metadata is maintained explicitly; no automatic citation-count scraping is enabled. People are a selection from linked public profiles, not a complete employment roster. Current and past doctoral supervision are held separately in `_data/people.yml`; supervision periods do not imply current appointments or graduation dates.
+
+Homepage finding cards explain published results in plain language and retain a direct paper link and a route into the relevant research or data. Keep their scope and uncertainty consistent with the original study. Project milestones are dated; use the linked project or facility catalogue for changing operational status. Data resources distinguish project viewers, archived observations and analysis software.
 
 The header pairs two separate logos: `assets/img/brand/polar-atmosphere.png` for polar atmospheric research and the original `assets/img/brand/uk-birdcast.jpg` for UK BirdCast. The polar emblem is also the favicon. Header placement is in `_includes/header.liquid`; responsive sizing is in `_sass/_group.scss`.
 

@@ -1,0 +1,24 @@
+# Published findings, checked against the linked papers on 2026-10-11.
+- theme: Greenland clouds
+  title: The air at the surface is only part of the story
+  summary: Tethered-balloon measurements at Summit revealed distinct aerosol layers below clouds. Stable air can separate the surface from cloud base, so surface measurements alone can miss the particles available to form cloud droplets.
+  citation: Guy et al. · 2024
+  paper: https://doi.org/10.5194/acp-24-11103-2024
+  project: /projects/polar-clouds/
+  project_label: Explore polar cloud research
+
+- theme: Radar aeroecology
+  title: A different view of insect change
+  summary: Eight years of UK radar observations revealed different trends by region and time of day. Night-time aerial arthropod abundance declined overall; daytime abundance did not show the same overall decline. The study sampled flight at 500–700 metres above ground.
+  citation: Mungee et al. · 2025
+  paper: https://doi.org/10.1111/gcb.70425
+  project: /projects/aeroecology/
+  project_label: Explore radar aeroecology
+
+- theme: Comparing observations
+  title: Better matches make better comparisons
+  summary: How closely should satellite and surface measurements coincide? A method developed by Andrew Martin and colleagues uses the information shared between datasets to choose that match, improving comparisons of cloud profiles at four observatories.
+  citation: Martin et al. · 2026
+  paper: https://doi.org/10.5194/amt-19-3511-2026
+  project: /data/#analysis-tools
+  project_label: Use the method and code

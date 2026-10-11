@@ -25,6 +25,8 @@ Ryan developed the **Cloud, Aerosol Polarisation and Backscatter Lidar (CAPABL)*
 
 **ICECAPS-MELT** extends these questions into Greenland's percolation zone, where surface meltwater can enter the firn. Its autonomous platform at Raven Camp measures the coupled snow–atmosphere system using renewable power. [Read about ICECAPS-MELT](https://www.icecapsmelt.org/) and our [autonomous observing systems]({{ '/projects/autonomous-observations/' | relative_url }}).
 
+The snowpack provides another part of this record. **Snow profiles collected at Camp Raven in May and August 2024**, published through CEDA in 2026, document density, shear strength, specific surface area, layering and grain properties. These measurements allow researchers to compare snow structure at two points in the melt season and connect it with the wider atmospheric observations. Ryan and Heather are among the dataset authors. [Explore the ICECAPS-MELT snow measurements](https://catalogue.ceda.ac.uk/uuid/aef72bc18a244465a721646babf3018a/).
+
 ## Observations across scales
 
 Measurements at the surface are only one part of the picture. Tethered-balloon observations allow us to sample aerosol layers below clouds and test how representative surface measurements are of conditions aloft.

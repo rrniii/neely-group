@@ -13,9 +13,19 @@ Our research connects instrument development, field campaigns and data analysis.
 
 ## From instruments to insight
 
-Ryan is the principal investigator for the NCAS radar facilities, working with instrument scientists and engineers to develop observations for the wider research community. This includes the **NXPol dual-polarisation X-band weather radars** and **Ka-band cloud radar** capabilities. Weather and cloud radars provide complementary views of precipitation, cloud particles and atmospheric motion. [Explore the NCAS radar programme](https://ncas.ac.uk/see-inside-the-clouds-meet-our-atmospheric-radars/).
+Ryan is the principal investigator for the NCAS radar facilities, working with instrument scientists and engineers to develop observations for the wider research community. This includes the **NXPol dual-polarisation X-band weather radars** and mobile cloud-radar development. Weather and cloud radars provide complementary views of precipitation, cloud particles and atmospheric motion. [Explore the NCAS radar programme](https://ncas.ac.uk/see-inside-the-clouds-meet-our-atmospheric-radars/).
+
+The [current AMOF cloud-radar catalogue](https://amof.ac.uk/instruments/mobile-cloud-radar/) describes a new dual-frequency **Ka/W-band** system to replace the earlier Kepler radar. It is listed as under development; consult the facility for current readiness and availability.
 
 Our work includes characterising instrument performance, improving calibration and developing methods to interpret the observations. Field campaigns connect radar measurements with rain gauges, disdrometers and other instruments so that retrieved rainfall and particle properties can be evaluated against independent measurements.
+
+## Making measurements trustworthy
+
+Small changes in a radar's alignment can change the height of its beam and the terrain that blocks it. In a 26-month NXPol deployment in northern England, **Dufton et al. (2023)** used interference from the Sun to diagnose changes in the radar's tilt between site visits. Correcting those changes improved rainfall estimates when checked against rain gauges. The study provides methods for recovering historical observations and guidance for monitoring mobile instruments in the field. [Read the calibration study](https://doi.org/10.3390/rs15245637).
+
+## Bringing local and national radar observations together
+
+Research radars can fill gaps in national coverage, but their measurements and processing differ. **Dufton et al. (2025)** developed a quality-index method to combine NXPol rainfall estimates with the Met Office's national radar composite. Evaluation against a rain-gauge network showed that the merged estimates performed better than either source alone. The study establishes scientific feasibility for future forecasting applications, with the aim of improving local rainfall information for flood modelling and response. [Read the rainfall-merging study](https://doi.org/10.1002/met.70070).
 
 ## From rainfall measurements to river flows
 
@@ -31,7 +41,9 @@ The collaborative **Contrail Observations and Lifecycle Tracking (COBALT)** proj
 
 ## A resource for the research community
 
-The radar facilities support collaborative field science, instrument development and training. The [Atmospheric Measurement and Observation Facility](https://amof.ac.uk/) provides the authoritative information on instruments and how researchers can access them. Work with colleagues also includes building connections across the UK radar community, documented in [Rhodes et al. (2026)](https://doi.org/10.1002/wea.70039).
+The radar facilities support collaborative field science, instrument development and training. The [Atmospheric Measurement and Observation Facility](https://amof.ac.uk/) provides the authoritative information on instruments and how researchers can access them.
+
+Lindsay Rhodes, David Dufton and Ryan organised the first UK Atmospheric Radar Community Workshop in Leeds in October 2025. It brought together 39 participants from academia and the public and private sectors to connect meteorology, hydrology and aeroecology, and to identify needs in training, data quality and shared tools. [Rhodes et al. (2026)](https://doi.org/10.1002/wea.70039) reports the meeting and the work to build an ongoing network.
 
 The photograph below shows the original NXPol instrument, documented in our 2018 technical paper. Current instrumentation is described by the [NCAS Atmospheric Measurement and Observation Facility](https://amof.ac.uk/).
 

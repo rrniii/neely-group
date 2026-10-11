@@ -1,6 +1,6 @@
 # Content and image sources
 
-Checked 10 October 2026. “Neely Research Group” is a working site name for this personalised fork, not a claim of a formally named University unit.
+Reviewed 11 October 2026. “Neely Research Group” is a working site name for this personalised fork, not a claim of a formally named University unit.
 
 ## Identity and research
 
@@ -9,7 +9,7 @@ Checked 10 October 2026. “Neely Research Group” is a working site name for t
 - [GAMB2LE](https://www.gamb2le.co.uk/): autonomous observing platform and project team.
 - [ICECAPS-MELT](https://www.icecapsmelt.org/): polar research context.
 - [NCAS radar overview](https://ncas.ac.uk/see-inside-the-clouds-meet-our-atmospheric-radars/): instrumentation context; the fieldwork photograph shows the older NXPol1, not NXPol2.
-- [Public CV](https://rrniii.github.io/cv/): research programmes, supervision, teaching and wider publication and dataset record. Compared against public source commit `ace6b51c6736462d6f94a28d43b4b016dd4ae7d8` on 10 October 2026; current institutional profiles and publisher/catalogue records corroborate details where available.
+- [Public CV](https://rrniii.github.io/cv/): research programmes, supervision, teaching and wider publication and dataset record. Latest comparison against public source commit `ac19f0f001455d404e063ef3a8a8fb417e17202f` on 11 October 2026, including its research contributions and research culture sections; current institutional profiles and publisher/catalogue records corroborate details where available.
 
 ## Research highlights
 
@@ -32,7 +32,7 @@ The homepage and research overview foreground GAMB2LE, TONe–ICO / SnøTroll an
 - [Tommy Matthews](https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3694/tommy-matthews), [Solanum Foulstone](https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3683/mx-solanum-foulstone) and [Net Zero Polar Science researchers](https://nzps-dtp.ac.uk/nzps-researchers/): additional doctoral profiles.
 - [Public teaching record](https://github.com/rrniii/cv/blob/main/sections/teaching.md) and [2026/27 SOEE3791 catalogue](https://catalogue.leeds.ac.uk/Module/UG/SOEE/3791/202627): modules, field teaching, education leadership and professional training.
 
-The bibliography now includes 23 selected published papers, including the two 2026 papers in the public CV. New entries were checked against publisher and Crossref records. Submitted manuscripts and preprints are not represented as published papers.
+The bibliography now includes 25 selected publication records, including the two 2026 research papers previously drawn from the public CV and a separately identified 2026 _Weather_ meeting report. New entries were checked against publisher and Crossref records. Submitted manuscripts and preprints are not represented as published papers.
 
 ## Scientific methods and published findings
 
@@ -64,6 +64,37 @@ Team additions checked 11 October 2026:
 
 - [Lindsay's NCAS profile](https://people.ncas.ac.uk/people/view/212) and [Leeds profile](https://environment.leeds.ac.uk/see/staff/1151/dr-lindsay-bennett): Radar Operations, Data and Partnerships Lead, with responsibilities for radar access, field deployments, data collection and partnerships. These current profiles display Lindsay Rhodes; the team card retains the requested display name Lindsay Bennett and links to the current profile.
 - [Will Barker's NCAS profile](https://people.ncas.ac.uk/people/view/746): Atmospheric Remote Sensing Scientist, working on scanning Doppler lidar and software for airborne atmospheric observations, including the FAAM upgrade. The current page title takes precedence over older search snippets.
+
+## Deeper research review — 11 October 2026
+
+The review compared the existing site with current institutional profiles, the public CV, project and funder pages, publisher records, data catalogues and public software documentation. Connected correspondence, Drive, Notion and calendar context was consulted privately; none of its private content or links is published here. The changes emphasise specific scientific findings, usable research resources, current public milestones and the team's contributions.
+
+### Project progress and observing capabilities
+
+- [GAMB2LE news](https://www.gamb2le.co.uk/latest-news) and [first AURORA test deployment](https://www.gamb2le.co.uk/latest-news/first-aurora-test-deployment): April 2026 deployment at the Leeds farm. The [project homepage](https://www.gamb2le.co.uk/) reported AURORA in Iceland when checked. This supports a dated location statement, not a completed Greenland deployment or an inferred Iceland mission purpose. The deployment-plan page still contains older planned dates and is not used as proof of completion.
+- [AURORA development](https://www.gamb2le.co.uk/latest-news/aurora-development) and [instrument training](https://www.gamb2le.co.uk/latest-news/rpg-training): separate power and science systems, modular engineering, instrument functions and data transfer. Uncrewed-aircraft integration is described as a design aim, not confirmed routine operation.
+- [GAMB2LE core values](https://www.gamb2le.co.uk/about/core-values): renewable power, accessible installation and FAIR/CARE data principles. No claim of zero-emission field research is made.
+- [TONe–ICO data guidance](https://www.esr.org/data-products/tone-ico/): Cloudnet records begin February 2025, international partners and product-specific citation. The start date does not imply continuous coverage.
+- [UKRI4313](https://gtr.ukri.org/projects?ref=UKRI4313): active NERC SnøTroll award, June 2026–June 2028; Ryan as PI, Ian Brooks and Stephen Hudson as co-investigators, Heather Guy and Sarah Barr as researchers. This current funder record takes precedence over older proposal and endorsement pages. Award dates are not applied to the entire international collaboration.
+- [AMOF mobile cloud radar](https://amof.ac.uk/instruments/mobile-cloud-radar/): replacement dual-frequency Ka/W-band system listed under development. Planned delivery dates are not treated as evidence of operational readiness.
+
+### Findings, publications and reusable tools
+
+- Homepage finding cards in `_data/research_findings.yml` summarise [Guy et al. (2024)](https://doi.org/10.5194/acp-24-11103-2024), [Mungee et al. (2025)](https://doi.org/10.1111/gcb.70425) and [Martin et al. (2026)](https://doi.org/10.5194/amt-19-3511-2026). They retain the local sampling context, distinct day/night trends and the demonstrated four-observatory scope, respectively.
+- [Lukach et al. (2024)](https://eprints.whiterose.ac.uk/id/eprint/219717/) and its [Figshare data/code deposit](https://doi.org/10.6084/m9.figshare.27682368): five-kilometre radar columns and comparison with moth observations. The deposit contains radar examples, moth-trap data, notebooks and analysis code.
+- [Matthews et al. (2025)](https://doi.org/10.1002/ecs2.70419): limitations of taxonomic resolution in weather-radar biological echoes. The site distinguishes abundance proxies from species inventories.
+- [Dufton et al. (2023)](https://doi.org/10.3390/rs15245637) and [Dufton et al. (2025)](https://doi.org/10.1002/met.70070): solar-interference tilt correction and quality-index rainfall merging. Improvements are described in the context of their evaluations, not as evidence of operational adoption. The 2023 paper was added to the bibliography.
+- [Rhodes et al. (2026)](https://doi.org/10.1002/wea.70039): October 2025 UK radar-community workshop organised by Lindsay, David and Ryan. Added as a meeting report, using the publisher's author name Lindsay Rhodes; the Team card continues to use the user-requested Lindsay Bennett.
+- [ICECAPS-MELT snow-property collection](https://catalogue.ceda.ac.uk/uuid/aef72bc18a244465a721646babf3018a/): archive published in 2026, documenting discrete May and August 2024 visits to Camp Raven. The site does not imply a continuous summer time series.
+- Martin et al.'s published code/data statement links to [archived analysis software](https://doi.org/10.5281/zenodo.17830442) and [results](https://doi.org/10.5281/zenodo.17817304); both are now reachable from the data page.
+- [UK BirdCast / Live UK Bird Maps](https://github.com/rrniii/uk-birdcast): public repository documents historical passage observations and weather-linked reanalysis. No public viewer was independently verified, so links go to the repository. No forecast, bird-population census or absolute external calibration is claimed.
+
+### People, training and access
+
+- [Solar-powered insect radar deployment](https://ncas.ac.uk/scientists-get-set-to-spot-insects-with-new-sun-powered-radar/): 2024 Rothamsted/NCAS deployment, engineering contribution and off-grid capability. This is a historical deployment, not a live operational-status claim.
+- [Imogen Wadlow](https://environment.leeds.ac.uk/see/pgr/11267/imogen-wadlow) and [Samuel Hodges](https://environment.leeds.ac.uk/see/pgr/11230/samuel-hodges): current public research summaries used to improve descriptions and link people with relevant themes. Programme links are navigational, not new employment or leadership claims.
+- [NCAS Introduction to Atmospheric Radar](https://ncas.ac.uk/study-with-us/introduction-to-atmospheric-radar/): course leadership and teaching team. Visitors are referred to NCAS for dates and registration rather than an inferred open course.
+- [Ryan's NCAS profile](https://people.ncas.ac.uk/people/view/337): Fairbairn House address. [AMOF](https://amof.ac.uk/) is the instrument-access route; the group site does not promise availability or open positions.
 
 ## Images
 

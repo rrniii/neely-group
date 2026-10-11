@@ -9,6 +9,8 @@ nav_order: 3
 
 Our research highlights connect three settings: Greenland's ice–atmosphere interface, Antarctic clouds and snowfall, and the animals moving through the air. Across **GAMB2LE**, **TONe–ICO / SnøTroll** and **radar aeroecology**, we develop instruments and analysis methods that turn observations into physical and ecological understanding.
 
+<nav class="section-nav" aria-label="On this page"><a href="#research-highlights">Research highlights</a><a href="#how-we-work">How we work</a><a href="#wider-research">Wider research</a><a href="#working-across-disciplines">Collaborate</a></nav>
+
 ## Research highlights
 
 <div class="research-links featured-research">
@@ -48,5 +50,7 @@ Our research highlights connect three settings: Greenland's ice–atmosphere int
 ## Working across disciplines
 
 Scientists, instrument engineers and data researchers work together across these programmes. Shared observing facilities, reusable datasets and training help others build on the measurements and methods.
+
+For a new collaboration, the starting point is the question: an uncertainty in a cloud model, a gap in polar observations, a radar signal that needs interpreting, or a need to measure movement through the atmosphere. We bring experience in instrument design, field deployment, calibration, data analysis and comparison with models. The [Team page]({{ '/people/#team' | relative_url }}) introduces the people behind these capabilities.
 
 Explore our [published data]({{ '/data/' | relative_url }}), [teaching and field training]({{ '/teaching/' | relative_url }}) and [research community]({{ '/people/' | relative_url }}), or [get in touch]({{ '/visit/' | relative_url }}) to discuss a scientific question.

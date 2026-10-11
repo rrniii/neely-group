@@ -2,14 +2,18 @@
 layout: page
 permalink: /data/
 title: data
-description: Atmospheric observations and modelling inputs from our research programmes and collaborations.
+description: Find polar observations, radar ecology datasets and reusable analysis tools from our research programmes and collaborations.
 nav: true
 nav_order: 5
 ---
 
-Measurements become more useful when other researchers can build on them. These selected archives connect our field campaigns, observing systems and modelling work with reusable research data. They provide evidence for studying physical processes, evaluating models and comparing measurements across instruments and environments.
+Find observations, analysis code and methods you can use in your own research. The resources below distinguish project viewers from published archives and software, with links to the original records for coverage, quality information and citation.
 
-## GAMB2LE: AURORA observations
+<nav class="section-nav" aria-label="On this page"><a href="#polar-observations">Polar observations</a><a href="#radar-aeroecology">Radar aeroecology</a><a href="#analysis-tools">Analysis tools</a><a href="#weather-and-climate">Weather and climate</a><a href="#using-and-citing-the-data">Using the data</a></nav>
+
+## Polar observations
+
+### GAMB2LE: AURORA observations
 
 **Autonomous observing systems · Project data viewer**
 
@@ -17,31 +21,23 @@ The GAMB2LE project provides a data viewer for its AURORA observatory. Follow th
 
 [Explore GAMB2LE data](https://www.gamb2le.co.uk/data) · [About GAMB2LE]({{ '/projects/gamb2le/' | relative_url }})
 
-## TONe–ICO: Antarctic cloud observations
+### TONe–ICO: Antarctic cloud observations
 
 **Troll Station, Dronning Maud Land · Cloudnet**
 
-The international Troll Integrated Cloud Observatory combines radar, lidar and supporting measurements to observe Antarctic clouds and precipitation. Browse the available observations and derived products through Cloudnet, and consult the observatory's data guidance for processing and citation details.
+The international Troll Integrated Cloud Observatory combines radar, lidar and supporting measurements to observe Antarctic clouds and precipitation. Cloudnet records begin in **February 2025**, with cloud classification and atmospheric-profile products. Check each product for available dates and processing status; the start date does not imply uninterrupted coverage.
 
 [Browse Troll on Cloudnet](https://cloudnet.fmi.fi/site/troll) · [Observatory and data guidance](https://www.esr.org/data-products/tone-ico/) · [TONe–ICO / SnøTroll]({{ '/projects/tone-ico-snotroll/' | relative_url }})
 
-## Radar aeroecology: aerial arthropod abundance
+### ICECAPS-MELT: snow properties at Camp Raven
 
-**United Kingdom · 2014–2021 observations · Zenodo**
+**Southwest Greenland · May and August 2024 field visits · CEDA archive published 2026**
 
-The data and analysis code supporting [Mungee et al. (2025)](https://doi.org/10.1111/gcb.70425) are openly available through Zenodo. The study uses weather-radar observations to investigate spatial and temporal variation in flying arthropod abundance. Its original radar measurements are held in the CEDA archive.
+Manual and instrumented snow profiles describe density, strength, layering and grain properties at Camp Raven. These observations help connect the atmosphere above the ice sheet with the changing snowpack below. The collection contains measurements from two field visits, rather than a continuous summer record.
 
-[Get the study data and code](https://doi.org/10.5281/zenodo.16418783) · [Source radar archive](https://catalogue.ceda.ac.uk/uuid/82adec1f896af6169112d09cc1174499) · [Radar aeroecology]({{ '/projects/aeroecology/' | relative_url }})
+[Explore the snow-property collection](https://catalogue.ceda.ac.uk/uuid/aef72bc18a244465a721646babf3018a/) · [Polar cloud and surface processes]({{ '/projects/polar-clouds/' | relative_url }})
 
-## WOEST: convection and turbulence
-
-**Southern England · 2023 field campaign · CEDA**
-
-Coordinated ground-based and airborne observations capture turbulent motion, convective clouds and the atmospheric boundary layer across a range of scales. The collection brings together measurements from the Wessex convection experiment — Observing the Evolving Structures of Turbulence, led by Ryan Neely.
-
-[Explore the WOEST data collection](https://catalogue.ceda.ac.uk/uuid/36756ff1928f4a1684902b470cda774e/) · [About the project]({{ '/projects/woest/' | relative_url }})
-
-## ICECAPS-ACE: aerosol, clouds and surface exchange
+### ICECAPS-ACE: aerosol, clouds and surface exchange
 
 **Summit Station, Greenland · CEDA**
 
@@ -49,7 +45,53 @@ Surface aerosol concentrations and size distributions, temperature, moisture and
 
 [Explore the ICECAPS-ACE data collection](https://catalogue.ceda.ac.uk/uuid/f06c6aa727404ca788ee3dd0515ea61a/) · [Polar research]({{ '/projects/polar-clouds/' | relative_url }})
 
-## DiVeN: precipitation at the surface
+## Radar aeroecology
+
+### Aerial arthropod abundance
+
+**United Kingdom · 2014–2021 observations · Zenodo**
+
+The data and analysis code supporting [Mungee et al. (2025)](https://doi.org/10.1111/gcb.70425) are openly available through Zenodo. The study uses weather-radar observations to investigate spatial and temporal variation in flying arthropod abundance. Its original radar measurements are held in the CEDA archive.
+
+[Get the study data and code](https://doi.org/10.5281/zenodo.16418783) · [Source radar archive](https://catalogue.ceda.ac.uk/uuid/82adec1f896af6169112d09cc1174499) · [Radar aeroecology]({{ '/projects/aeroecology/' | relative_url }})
+
+### From radar volumes to ecological observations
+
+**Column vertical profiles · Example data and analysis code · Figshare**
+
+The resources accompanying [Lukach et al. (2024)](https://doi.org/10.1016/j.ecoinf.2024.102901) include example radar data, moth-trap observations, notebooks and analysis code. They provide a practical starting point for comparing radar measurements above a location with ecological observations on the ground.
+
+[Explore the data and code](https://doi.org/10.6084/m9.figshare.27682368)
+
+## Analysis tools
+
+### Matching satellite and surface observations
+
+**Spatiotemporal co-location · Published method and archived software**
+
+[Martin et al. (2026)](https://doi.org/10.5194/amt-19-3511-2026) developed a method for selecting how closely observations should match in space and time. The published demonstration compares ICESat-2 cloud profiles with four surface Cloudnet observatories. Its archived software and results allow others to examine and reproduce that analysis.
+
+[Get the analysis software](https://doi.org/10.5281/zenodo.17830442) · [Get the published results](https://doi.org/10.5281/zenodo.17817304)
+
+### UK BirdCast / Live UK Bird Maps
+
+**Weather-radar passage observations · Open development repository**
+
+This project presents retrospective UK bird-passage observations and weather-linked historical reanalysis. Radar passage describes movement through sampled airspace; it is not a census of bird populations or a forecast of future migration. The repository documents the methods, data coverage and development status.
+
+[Explore the project and source code](https://github.com/rrniii/uk-birdcast) · [The science behind radar aeroecology]({{ '/projects/aeroecology/' | relative_url }})
+
+## Weather and climate
+
+### WOEST: convection and turbulence
+
+**Southern England · 2023 field campaign · CEDA**
+
+Coordinated ground-based and airborne observations capture turbulent motion, convective clouds and the atmospheric boundary layer across a range of scales. The collection brings together measurements from the Wessex convection experiment — Observing the Evolving Structures of Turbulence, led by Ryan Neely.
+
+[Explore the WOEST data collection](https://catalogue.ceda.ac.uk/uuid/36756ff1928f4a1684902b470cda774e/) · [About the project]({{ '/projects/woest/' | relative_url }})
+
+### DiVeN: precipitation at the surface
 
 **United Kingdom · 2017–2019 · CEDA**
 
@@ -57,7 +99,7 @@ The Disdrometer Verification Network measured particle diameter and fall speed a
 
 [Explore the DiVeN dataset](https://catalogue.ceda.ac.uk/uuid/602f11d9a2034dae9d0a7356f9aeaf45/) · [Radar research]({{ '/projects/radar/' | relative_url }})
 
-## VolcanEESM: volcanic emissions for climate models
+### VolcanEESM: volcanic emissions for climate models
 
 **Global volcanic sulphur dioxide emissions · CEDA**
 
@@ -67,7 +109,7 @@ Developed by Ryan Neely and Anja Schmidt, VolcanEESM brings together volcanic su
 
 ## Using and citing the data
 
-Combining datasets requires attention to when, where and over what volume each instrument measured. Our [published co-location method](https://doi.org/10.5194/amt-19-3511-2026) uses shared information between datasets to guide that matching, demonstrated with ICESat-2 and four surface Cloudnet observatories.
+Combining datasets requires attention to when, where and over what volume each instrument measured. Check that differences in sampling, instrument sensitivity and processing are appropriate for your scientific question.
 
 Each archive provides the authoritative record of coverage, processing, quality information, access conditions and licence. Cite the specific dataset and version you use, alongside any relevant methods paper. The [publications page]({{ '/publications/' | relative_url }}) provides a selection of those papers; Ryan's [full CV](https://rrniii.github.io/cv/) includes a wider dataset record.
 

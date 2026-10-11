@@ -3,6 +3,7 @@ layout: home
 title: home
 permalink: /
 subtitle: University of Leeds · National Centre for Atmospheric Science
+description: Polar clouds, autonomous observatories and radar aeroecology. Discover the Neely Research Group's science, people, open data and methods at Leeds and NCAS.
 ---
 
 <div class="group-hero">
@@ -26,6 +27,11 @@ subtitle: University of Leeds · National Centre for Atmospheric Science
     {% endfor %}
   </section>
 </div>
+
+<section class="group-section" aria-labelledby="findings-heading">
+  <div class="section-heading"><div><p class="eyebrow">Evidence from our research</p><h2 id="findings-heading">What the measurements reveal</h2></div><a href="{{ '/publications/' | relative_url }}">Read the publications →</a></div>
+  {% include research_findings.liquid %}
+</section>
 
 <section class="field-feature group-section" aria-labelledby="field-heading">
   <figure><img src="{{ '/assets/img/fieldwork/helikite.jpg' | relative_url }}" alt="A tethered Helikite carrying aerosol and meteorological instruments at Summit Station, Greenland" loading="lazy" width="1168" height="767"><figcaption><a href="https://doi.org/10.5194/acp-24-11103-2024">Guy et al. (2024), Fig. 2</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></figcaption></figure>

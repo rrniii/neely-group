@@ -1,0 +1,19 @@
+<div class="findings-grid">
+  {% for finding in site.data.research_findings %}
+    <article class="finding-card">
+      <p class="eyebrow">{{ finding.theme }}</p>
+      <h3>{{ finding.title }}</h3>
+      <p>{{ finding.summary }}</p>
+      <div class="finding-links">
+        <a href="{{ finding.paper }}">
+          {{- finding.citation }}
+          <span aria-hidden="true">↗</span></a
+        >
+        <a href="{{ finding.project | relative_url }}">
+          {{- finding.project_label }}
+          <span aria-hidden="true">→</span></a
+        >
+      </div>
+    </article>
+  {% endfor %}
+</div>

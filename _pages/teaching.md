@@ -48,6 +48,12 @@ His Leeds field teaching began with **Environmental Research and Career Skills (
 - **NCAS Introduction to Atmospheric Radar:** lecturer in 2024, including radar observations and Python/Jupyter analysis.
 - **International Radar Aeroecology Workshops:** lecturer in Delaware in 2024 and invited lecturer in Amsterdam in 2026, teaching radar polarimetry, biological-target classification and data quality.
 
+## Radar training and a wider community
+
+The [NCAS Introduction to Atmospheric Radar course](https://ncas.ac.uk/study-with-us/introduction-to-atmospheric-radar/) connects lectures with practical data analysis. Lindsay and David lead the course, with Ryan and Sarah among the teaching team. Participants learn to interpret Doppler and polarisation measurements, use open-source analysis tools and assess the limitations of radar data. The NCAS course page lists upcoming arrangements and how to register interest.
+
+Lindsay, David and Ryan also organised the first UK Atmospheric Radar Community Workshop in Leeds in October 2025. It brought together researchers and users from academia, public bodies and industry to discuss observations, data quality and training needs. Their [published meeting report](https://doi.org/10.1002/wea.70039) explains the community's priorities and links to its resources.
+
 ## Research projects and supervision
 
 Students interested in observational atmospheric science, polar processes or radar aeroecology are welcome to [get in touch]({{ '/visit/' | relative_url }}) to discuss potential projects. See the [research pages]({{ '/research/' | relative_url }}) for examples of the questions we work on, and [people]({{ '/people/' | relative_url }}) for current doctoral projects and Ryan's supervision history.

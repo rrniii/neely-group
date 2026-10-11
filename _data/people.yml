@@ -1,7 +1,7 @@
 # Selected public profiles for the Neely research community.
 # Roles and research summaries checked against the linked institutional sources
 # on 2026-10-10. Supervision periods and roles follow Ryan's published CV.
-# Lindsay Bennett and Will Barker added from current profiles on 2026-10-11.
+# People summaries and programme links reviewed against public sources on 2026-10-11.
 # Past supervision is not a claim about degree completion or current employment.
 
 principal_investigator:
@@ -23,6 +23,8 @@ research_team:
     institution: NCAS, University of Leeds
     research: Polar aerosol and cloud observations, including long-term measurements over the Greenland Ice Sheet. Co-leads GAMB2LE with Sarah Barr and Ryan.
     profile_link: https://people.ncas.ac.uk/people/view/472
+    programme_path: /projects/gamb2le/
+    programme_label: GAMB2LE
 
   - name: Sarah Barr
     initials: SB
@@ -30,6 +32,8 @@ research_team:
     institution: NCAS, University of Leeds
     research: Polar observations and the development of the GAMB2LE mobile Greenland observatory. Co-leads GAMB2LE with Heather Guy and Ryan.
     profile_link: https://people.ncas.ac.uk/people/view/579
+    programme_path: /projects/gamb2le/
+    programme_label: GAMB2LE
     research_source: https://environment.leeds.ac.uk/research/news/article/5910/forecasting-climate-tipping-points
 
   - name: David Dufton
@@ -38,6 +42,8 @@ research_team:
     institution: NCAS, University of Leeds
     research: Weather-radar estimates of precipitation and their uncertainty, with applications in hydrology.
     profile_link: https://people.ncas.ac.uk/people/view/306
+    programme_path: /projects/radar/
+    programme_label: Radar and precipitation
 
   - name: Lindsay Bennett
     initials: LB
@@ -45,6 +51,8 @@ research_team:
     institution: NCAS, University of Leeds
     research: Coordinates access to NCAS weather and cloud radars, including field deployments, data collection and radar research partnerships.
     profile_link: https://people.ncas.ac.uk/people/view/212
+    programme_path: /projects/radar/
+    programme_label: Radar facilities and research
     # Current institutional profiles use Lindsay Rhodes; retain the display name
     # requested by Ryan and link to the current profile.
 
@@ -59,8 +67,11 @@ research_team:
     initials: AF
     role: Radar Support Engineer
     institution: NCAS, University of Leeds
-    research: Engineering support for atmospheric radar capability.
+    research: Operates and maintains research radars and supports field deployments. Contributed to the solar-powered insect radar installation at Rothamsted Research, enabling measurements away from mains power.
+    research_source: https://ncas.ac.uk/scientists-get-set-to-spot-insects-with-new-sun-powered-radar/
     profile_link: https://people.ncas.ac.uk/people/view/627
+    programme_path: /projects/aeroecology/
+    programme_label: Radar aeroecology
 
 research_students:
   - name: Andrew Martin
@@ -70,22 +81,28 @@ research_students:
     supervision: Primary supervisor since 2022
     research: Mixed-phase clouds in Greenland and Antarctica, combining ICESat-2 lidar with ground-based observations.
     profile_link: https://environment.leeds.ac.uk/see/pgr/11242/andrew-martin
+    programme_path: /projects/polar-clouds/
+    programme_label: Polar clouds and aerosols
 
   - name: Imogen Wadlow
     initials: IW
     role: Postgraduate researcher
     institution: University of Leeds
     supervision: Secondary supervisor since 2022
-    research: Arctic aerosol–cloud interactions and the use of observations to improve aerosol representation in climate models.
+    research: Uses Arctic aerosol observations to evaluate and improve the UK Earth System Model. Fieldwork spans Summit, the Southern Ocean and cloud observations at Troll Station, Antarctica.
     profile_link: https://environment.leeds.ac.uk/see/pgr/11267/imogen-wadlow
+    programme_path: /projects/polar-clouds/
+    programme_label: Polar clouds and aerosols
 
   - name: Samuel Hodges
     initials: SH
     role: Postgraduate researcher
     institution: University of Leeds
     supervision: Primary supervisor since 2022
-    research: Radar aeroecology, combining weather-radar observations, insect measurements and atmospheric models.
+    research: BioCast research combines weather radar, insect field observations and atmospheric models to understand how weather influences insect dispersal and biodiversity.
     profile_link: https://environment.leeds.ac.uk/see/pgr/11230/samuel-hodges
+    programme_path: /projects/aeroecology/
+    programme_label: Radar aeroecology
     # Both Ryan's current CV and the Leeds profile list ongoing supervision.
 
   - name: Tommy Matthews
@@ -95,6 +112,8 @@ research_students:
     supervision: Secondary supervisor since 2024
     research: Improving the identification of birds and insects in dual-polarisation weather-radar observations using models of electromagnetic scattering.
     profile_link: https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3694/tommy-matthews
+    programme_path: /projects/aeroecology/
+    programme_label: Radar aeroecology
     # Listed as Thomas Matthews in Ryan's CV; use the name on his Leeds profile.
 
   - name: Solanum Foulstone
@@ -104,6 +123,8 @@ research_students:
     supervision: Secondary supervisor since 2024
     research: Bird radar, ornithology and conservation within the BioDAR collaboration.
     profile_link: https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3683/mx-solanum-foulstone
+    programme_path: /projects/aeroecology/
+    programme_label: Radar aeroecology
     research_source: https://hassalllab.weebly.com/the-lab.html
 
   - name: Clare Ballantyne
