@@ -13,6 +13,8 @@ Forked from [mgrau/graulab.org](https://github.com/mgrau/graulab.org), retaining
 | Homepage                                | `_pages/about.md`                                                   |
 | Name, description and URL               | `_config.yml`                                                       |
 | People and institutional profile links  | `_data/people.yml`                                                  |
+| Flagship project summaries              | `_data/project_briefs.yml`, `_includes/project_brief.liquid`        |
+| Joining and source policy               | `_pages/join.md`, `_pages/about-site.md`                            |
 | Research areas                          | `_projects/*.md`                                                    |
 | Publications                            | `_publications/papers.bib`                                          |
 | Homepage research findings              | `_data/research_findings.yml`, `_includes/research_findings.liquid` |
@@ -26,6 +28,8 @@ Set `featured: true`, `importance`, `short_title` and `highlight_label` on a pro
 Set `selected = {true}` on a BibTeX entry to feature it on the homepage. Publication metadata is maintained explicitly; no automatic citation-count scraping is enabled. People are a selection from linked public profiles, not a complete employment roster. Current and past doctoral supervision are held separately in `_data/people.yml`; supervision periods do not imply current appointments or graduation dates.
 
 Homepage finding cards explain published results in plain language and retain a direct paper link and a route into the relevant research or data. Keep their scope and uncertainty consistent with the original study. Project milestones are dated; use the linked project or facility catalogue for changing operational status. Data resources distinguish project viewers, archived observations and analysis software.
+
+Update `content_reviewed` in `_config.yml` only after an editorial review. The footer and About this site page show this date, independently of deployment. Keep opportunity funding status and deadlines explicit, with a checked date and the original listing. The homepage Recent work section uses event dates; maintain its links when revising project headings.
 
 The header pairs two separate logos: `assets/img/brand/polar-atmosphere.png` for polar atmospheric research and the original `assets/img/brand/uk-birdcast.jpg` for UK BirdCast. The polar emblem is also the favicon. Header placement is in `_includes/header.liquid`; responsive sizing is in `_sass/_group.scss`.
 

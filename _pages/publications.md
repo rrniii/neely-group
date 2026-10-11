@@ -13,7 +13,7 @@ The list includes published work through 2026. For the full career publication r
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="publications" id="publication-list">
 
 {% bibliography %}
 

@@ -1,0 +1,57 @@
+gamb2le:
+  facts:
+    - label: Setting
+      text: Greenland Ice Sheet science; AURORA field testing began in 2026.
+    - label: Approach
+      text: An autonomous observatory combining clouds, weather and surface-energy measurements.
+    - label: Leadership
+      text: Ryan Neely, Heather Guy and Sarah Barr · NCAS and University of Leeds.
+    - label: Programme
+      text: ARIA Forecasting Tipping Points.
+  sections:
+    - label: Observatory
+      anchor: aurora-an-observatory-built-for-remote-science
+    - label: Instruments
+      anchor: what-the-instruments-tell-us
+    - label: Science
+      anchor: from-observations-to-understanding-change
+    - label: Data and updates
+      anchor: follow-the-observations
+
+tone-ico-snotroll:
+  facts:
+    - label: Setting
+      text: Troll Station and the Antarctic escarpment, Dronning Maud Land.
+    - label: Observatory
+      text: TONe–ICO · Cloudnet records from February 2025.
+    - label: Research award
+      text: SnøTroll · NERC award June 2026–June 2028; Ryan is Leeds PI.
+    - label: Partnership
+      text: UK, Norwegian and US researchers connect measurements with model evaluation.
+  sections:
+    - label: TONe–ICO
+      anchor: toneico-year-round-observations-at-troll
+    - label: SnøTroll
+      anchor: snøtroll-from-terrain-to-snowfall
+    - label: Data
+      anchor: explore-the-observations
+
+aeroecology:
+  facts:
+    - label: Setting
+      text: UK airspace and coastal and offshore migration routes.
+    - label: Approach
+      text: Weather and entomological radar, ecological observations and scattering models.
+    - label: Collaborations
+      text: BioDAR, DRUID and AVOCET connect atmospheric physics with ecology.
+    - label: Outputs
+      text: Published abundance studies, reusable data and code, and UK BirdCast development.
+  sections:
+    - label: Questions
+      anchor: questions-we-investigate
+    - label: Findings
+      anchor: what-the-observations-reveal
+    - label: Collaborations
+      anchor: from-biodiversity-monitoring-to-offshore-migration
+    - label: UK BirdCast
+      anchor: live-uk-bird-maps

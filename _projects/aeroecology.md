@@ -6,6 +6,7 @@ description: Using weather radar to study insects and migrating birds, connectin
 permalink: /projects/aeroecology/
 importance: 3
 featured: true
+project_brief: aeroecology
 highlight_label: Biodiversity
 ---
 

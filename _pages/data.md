@@ -9,6 +9,16 @@ nav_order: 5
 
 Find observations, analysis code and methods you can use in your own research. The resources below distinguish project viewers from published archives and software, with links to the original records for coverage, quality information and citation.
 
+<section class="data-start" aria-labelledby="data-start-heading">
+  <h2 id="data-start-heading">What would you like to do?</h2>
+  <ul>
+    <li><a href="#polar-observations">Explore polar measurements</a> — project viewers, Cloudnet and archived field observations.</li>
+    <li><a href="#radar-aeroecology">Download a radar ecology study</a> — published observations with supporting code.</li>
+    <li><a href="#analysis-tools">Reproduce an analysis or explore software</a> — co-location methods and UK BirdCast development.</li>
+    <li><a href="#weather-and-climate">Find weather and climate archives</a> — WOEST, DiVeN and volcanic emissions.</li>
+  </ul>
+</section>
+
 <nav class="section-nav" aria-label="On this page"><a href="#polar-observations">Polar observations</a><a href="#radar-aeroecology">Radar aeroecology</a><a href="#analysis-tools">Analysis tools</a><a href="#weather-and-climate">Weather and climate</a><a href="#using-and-citing-the-data">Using the data</a></nav>
 
 ## Polar observations
@@ -105,7 +115,7 @@ The Disdrometer Verification Network measured particle diameter and fall speed a
 
 Developed by Ryan Neely and Anja Schmidt, VolcanEESM brings together volcanic sulphur dioxide emission amounts and locations for Earth system models. The linked collection documents coverage from 1850 to 2015; consult its individual dataset records for the version and coverage appropriate to your work.
 
-[Explore the VolcanEESM collection](https://catalogue.ceda.ac.uk/uuid/bfbd5ec825fa422f9a858b14ae7b2a0d/)
+[Explore the VolcanEESM collection](https://catalogue.ceda.ac.uk/uuid/bfbd5ec825fa422f9a858b14ae7b2a0d/) · [Aerosols and climate research]({{ '/projects/aerosols-climate/' | relative_url }})
 
 ## Using and citing the data
 

@@ -6,8 +6,9 @@
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  <a href="{{ '/about-site/' | relative_url }}">About this site and sources</a>.
+  {% if site.content_reviewed %}
+    Content reviewed {{ site.content_reviewed | date: '%-d %B %Y' }}.
   {% endif %}
 {% endcapture %}
 

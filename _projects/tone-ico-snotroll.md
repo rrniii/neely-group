@@ -6,6 +6,7 @@ description: Observing Antarctic clouds and snowfall at Troll to understand how 
 permalink: /projects/tone-ico-snotroll/
 importance: 2
 featured: true
+project_brief: tone-ico-snotroll
 highlight_label: Antarctica
 ---
 

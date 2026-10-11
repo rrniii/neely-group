@@ -6,6 +6,7 @@ description: Developing and testing the AURORA autonomous observatory to measure
 permalink: /projects/gamb2le/
 importance: 1
 featured: true
+project_brief: gamb2le
 highlight_label: Greenland
 ---
 

@@ -32,4 +32,4 @@ For access to national observing facilities, consult the [Atmospheric Measuremen
 
 ## Postgraduate research
 
-Tell us about your interests, relevant experience and the research questions you would like to explore. Formal opportunities and application requirements are published through the [University of Leeds postgraduate research directory](https://phd.leeds.ac.uk/).
+Our [Join us page]({{ '/join/' | relative_url }}) explains routes into PhD study, fellowships, research visits and collaboration, including what to include in an initial enquiry. Formal opportunities and application requirements are published through the [University of Leeds postgraduate research directory](https://phd.leeds.ac.uk/).

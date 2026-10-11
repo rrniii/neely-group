@@ -60,8 +60,10 @@ research_team:
     initials: WB
     role: Atmospheric Remote Sensing Scientist
     institution: NCAS, University of Leeds
-    research: Develops scanning Doppler lidar and software for airborne atmospheric observations, including the FAAM Airborne Laboratory upgrade.
+    research: Specialises in scanning Doppler lidar, instrument control and atmospheric data analysis. His experience includes wind-energy measurements and lidar development for the FAAM Airborne Laboratory upgrade.
     profile_link: https://people.ncas.ac.uk/people/view/746
+    # The profile's FAAM paragraph predates the facility's closure on 31 March 2026.
+    # Describe that contribution as experience, not an ongoing upgrade.
 
   - name: Alex Fearn
     initials: AF

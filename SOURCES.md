@@ -32,7 +32,7 @@ The homepage and research overview foreground GAMB2LE, TONe–ICO / SnøTroll an
 - [Tommy Matthews](https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3694/tommy-matthews), [Solanum Foulstone](https://biologicalsciences.leeds.ac.uk/biological-sciences/pgr/3683/mx-solanum-foulstone) and [Net Zero Polar Science researchers](https://nzps-dtp.ac.uk/nzps-researchers/): additional doctoral profiles.
 - [Public teaching record](https://github.com/rrniii/cv/blob/main/sections/teaching.md) and [2026/27 SOEE3791 catalogue](https://catalogue.leeds.ac.uk/Module/UG/SOEE/3791/202627): modules, field teaching, education leadership and professional training.
 
-The bibliography now includes 25 selected publication records, including the two 2026 research papers previously drawn from the public CV and a separately identified 2026 _Weather_ meeting report. New entries were checked against publisher and Crossref records. Submitted manuscripts and preprints are not represented as published papers.
+The bibliography now includes 28 selected publication records, including new and foundational research papers and a separately identified 2026 _Weather_ meeting report. New entries were checked against publisher and Crossref records. Submitted manuscripts and preprints are not represented as published papers.
 
 ## Scientific methods and published findings
 
@@ -63,7 +63,7 @@ People's titles and project summaries are based on the institutional URLs stored
 Team additions checked 11 October 2026:
 
 - [Lindsay's NCAS profile](https://people.ncas.ac.uk/people/view/212) and [Leeds profile](https://environment.leeds.ac.uk/see/staff/1151/dr-lindsay-bennett): Radar Operations, Data and Partnerships Lead, with responsibilities for radar access, field deployments, data collection and partnerships. These current profiles display Lindsay Rhodes; the team card retains the requested display name Lindsay Bennett and links to the current profile.
-- [Will Barker's NCAS profile](https://people.ncas.ac.uk/people/view/746): Atmospheric Remote Sensing Scientist, working on scanning Doppler lidar and software for airborne atmospheric observations, including the FAAM upgrade. The current page title takes precedence over older search snippets.
+- [Will Barker's NCAS profile](https://people.ncas.ac.uk/people/view/746): Atmospheric Remote Sensing Scientist, with expertise in scanning Doppler lidar and software for airborne observations. The newer official FAAM closure notice below takes precedence over the profile's older upgrade description.
 
 ## Deeper research review — 11 October 2026
 
@@ -95,6 +95,39 @@ The review compared the existing site with current institutional profiles, the p
 - [Imogen Wadlow](https://environment.leeds.ac.uk/see/pgr/11267/imogen-wadlow) and [Samuel Hodges](https://environment.leeds.ac.uk/see/pgr/11230/samuel-hodges): current public research summaries used to improve descriptions and link people with relevant themes. Programme links are navigational, not new employment or leadership claims.
 - [NCAS Introduction to Atmospheric Radar](https://ncas.ac.uk/study-with-us/introduction-to-atmospheric-radar/): course leadership and teaching team. Visitors are referred to NCAS for dates and registration rather than an inferred open course.
 - [Ryan's NCAS profile](https://people.ncas.ac.uk/people/view/337): Fairbairn House address. [AMOF](https://amof.ac.uk/) is the instrument-access route; the group site does not promise availability or open positions.
+
+## Further research and peer-site review — 11 October 2026
+
+### Additional science and publications
+
+- [Lo et al. (2026)](https://doi.org/10.1002/qj.70237), checked against the publisher and [Crossref](https://api.crossref.org/works/10.1002/qj.70237): published 17 August 2026, article e70237; no volume or issue supplied in the current metadata. The WOEST page retains the two-WesCon-case scope when describing the CASIM comparison. This is a published paper, distinct from the public preprint below.
+- [Thompson et al. (2026), public preprint](https://doi.org/10.5194/egusphere-2026-4631): posted 7 August 2026; five-radar three-dimensional wind retrieval, 1 km horizontal / 500 m vertical grid, 10-minute intervals. The strongest updrafts and downdrafts are underestimated. It is linked as a public preprint with a review record, not entered as a published article or given an unverified data-archive link.
+- [Neely et al. (2013)](https://doi.org/10.1002/grl.50263) and [Neely et al. (2014)](https://doi.org/10.1002/2013JD020578): added to the bibliography and the new Aerosols and climate page. The first attribution result is restricted to 20–30 km during 2000–2010; the Asian tropopause aerosol layer is a different altitude and mechanism. Neither result is generalised to all anthropogenic aerosol.
+- [Neely et al. (2016)](https://doi.org/10.5194/gmd-9-2459-2016): consistent aerosol treatment for CESM1 radiation and chemistry. The description distinguishes improved stratospheric temperature response from the uncertain significance of the surface-cooling change.
+
+### Opportunities, people and learning
+
+- [Leeds insect-biodiversity PhD advert](https://phd.leeds.ac.uk/project/1666-spatio-temporal-drivers-of-insect-biodiversity-and-conservation): checked 11 October 2026, non-funded, deadline 30 August 2027, all nationalities. Christopher Hassall is lead supervisor/contact and Ryan is an additional supervisor. It is not represented as a funded vacancy.
+- [Leeds fellowship guidance](https://researchersupport.leeds.ac.uk/research-funding-and-outputs/fellowships-and-grants/), [NCAS Visiting Scientist Programme](https://ncas.ac.uk/work-with-us/visiting-scientists/) and [doctoral placements/co-supervision](https://ncas.ac.uk/study-with-us/phd-supervision-and-placements/): public application routes, retaining school support, assessment and capacity requirements.
+- [Ryan's public research-culture record](https://github.com/rrniii/cv/blob/main/sections/research_culture.md) and [GAMB2LE core values](https://www.gamb2le.co.uk/about/core-values): examples of multidisciplinary planning, shared leadership and accessible field design. Programme-specific commitments are not presented as universal institutional policies.
+- [Official FAAM closure notice](https://ncas.ac.uk/marking-the-formal-closure-of-the-faam-airborne-laboratory/): operational activity ended 31 March 2026. Will's biography now describes his FAAM contribution as experience rather than ongoing upgrade work; historical campaign references to FAAM remain valid.
+- [BioDAR outputs](https://biodarproject.org/outputs) and [Aeroecology: Exploring Biodiversity with Radar](https://www.coursera.org/learn/aeroecology-exploring-biodiversity-with-radar): Leeds course taught by Christopher Hassall. No claim of free access or certification.
+- [UK Atmospheric Radar Community](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community), its [tools](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community/tools-resources), [training](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community/courses-and-training) and [contact routes](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community/contact): evergreen community and learning links.
+
+### Peer examples and adaptations
+
+These sites were inspected for useful information architecture, not copied for scientific claims, branding or page design. Adaptations are our editorial choices based on the observed patterns.
+
+| Peer source                                                                                                                                                                                                             | Observed practice                                                            | Adaptation here                                                                                                |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| [Animal Migration Biology, University of Illinois](https://www.migrationbiology.org/)                                                                                                                                   | Prominent research and joining routes; dated updates                         | Homepage Join us route and three dated research milestones                                                     |
+| [Purdue AeroEco Lab](https://aeroecolab.com/), [NASA biodiversity project](https://aeroecolab.com/nasa-biodiversity)                                                                                                    | Distinct people, research, outputs and opportunities; project context        | Four concise facts and section links for each flagship, plus a separate Join us page                           |
+| [Cornell BirdCast](https://birdcast.org/)                                                                                                                                                                               | Clear separation of tools, methods, geography and product scope              | Data start-here routes; retained explicit historical scope and limitations for UK BirdCast, a separate project |
+| [Adriaan Dokter's code resources](https://adriaandokter.com/code/)                                                                                                                                                      | Software explained with routes to code and documentation                     | Clear routes to archived analyses and UK BirdCast development                                                  |
+| [Leeds Ice Nucleation](https://environment.leeds.ac.uk/atmospheric-chemistry-aerosols/doc/ice-nucleation), [joining guidance](https://environment.leeds.ac.uk/atmospheric-chemistry-aerosols/doc/ice-nucleation/page/2) | Separate study and fellowship pathways                                       | Audience-specific PhD, fellowship, visit and collaboration guidance                                            |
+| [Matthew Shupe, NOAA PSL](https://psl.noaa.gov/people/matthew.shupe/), [publications](https://psl.noaa.gov/people/matthew.shupe/pubs.html)                                                                              | Explicit source routes and maintained dates; publication status distinctions | Manually maintained content-review date, public source-policy page and separate preprint labelling             |
+
+Accessibility work follows [WAI page regions](https://www.w3.org/WAI/tutorials/page-structure/regions/), [reflow guidance](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html) and [focus-not-obscured guidance](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html): a named main-navigation landmark, a visible keyboard skip link, anchor offsets and labelled bibliography search with result feedback. These changes and responsive checks are not a claim of a full accessibility conformance audit.
 
 ## Images
 

@@ -12,7 +12,7 @@ description: Polar clouds, autonomous observatories and radar aeroecology. Disco
     <h1>From polar ice<br><em>to life in the air.</em></h1>
     <p class="hero-intro">We observe how the atmosphere shapes ice sheets and how flying animals move through it.</p>
     <p>Led by Professor Ryan Neely, our Leeds and NCAS group connects instrument engineering, field observations and modelling—from autonomous polar observatories to radar studies of biodiversity.</p>
-    <div class="hero-actions"><a class="group-button" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">↗</span></a><a href="{{ '/people/' | relative_url }}">Meet the people →</a></div>
+    <div class="hero-actions"><a class="group-button" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">↗</span></a><a href="{{ '/people/' | relative_url }}">Meet the people →</a><a href="{{ '/join/' | relative_url }}">Join us →</a></div>
   </div>
   <section class="research-highlights" aria-labelledby="highlights-heading">
     <h2 class="eyebrow" id="highlights-heading">Research highlights</h2>
@@ -27,6 +27,15 @@ description: Polar clouds, autonomous observatories and radar aeroecology. Disco
     {% endfor %}
   </section>
 </div>
+
+<section class="group-section recent-work" aria-labelledby="recent-heading">
+  <div class="section-heading"><div><p class="eyebrow">From the field and the literature</p><h2 id="recent-heading">Recent work</h2></div></div>
+  <ol class="updates-list">
+    <li><time datetime="2026-08-17">17 August 2026</time><div><h3><a href="{{ '/projects/woest/#using-radar-to-test-model-physics' | relative_url }}">Testing cloud models with radar</a></h3><p>A new WOEST study uses raindrop signals to examine model microphysics in two WesCon cases.</p></div></li>
+    <li><time datetime="2026-06">June 2026</time><div><h3><a href="{{ '/projects/tone-ico-snotroll/#snøtroll-from-terrain-to-snowfall' | relative_url }}">SnøTroll research award begins</a></h3><p>The NERC award connects Antarctic terrain, clouds and snowfall through 2028.</p></div></li>
+    <li><time datetime="2026-04">April 2026</time><div><h3><a href="https://www.gamb2le.co.uk/latest-news/first-aurora-test-deployment">AURORA's first test deployment</a></h3><p>GAMB2LE brings its autonomous observatory into the field at the University of Leeds farm.</p></div></li>
+  </ol>
+</section>
 
 <section class="group-section" aria-labelledby="findings-heading">
   <div class="section-heading"><div><p class="eyebrow">Evidence from our research</p><h2 id="findings-heading">What the measurements reveal</h2></div><a href="{{ '/publications/' | relative_url }}">Read the publications →</a></div>
@@ -48,4 +57,4 @@ description: Polar clouds, autonomous observatories and radar aeroecology. Disco
 
 <section class="group-section" aria-labelledby="papers-heading"><div class="section-heading"><div><p class="eyebrow">From our research</p><h2 id="papers-heading">Selected publications</h2></div><a href="{{ '/publications/' | relative_url }}">Browse publications →</a></div>{% include selected_papers.liquid %}</section>
 
-<section class="join-banner"><div><p class="eyebrow">Work with us</p><h2>Curious about the atmosphere?</h2><p>We welcome conversations about research, collaboration and postgraduate study.</p></div><a class="group-button" href="{{ '/visit/' | relative_url }}">Get in touch ↗</a></section>
+<section class="join-banner"><div><p class="eyebrow">Work with us</p><h2>Curious about the atmosphere?</h2><p>We welcome conversations about research, collaboration and postgraduate study.</p></div><a class="group-button" href="{{ '/join/' | relative_url }}">Find a way to work with us ↗</a></section>

@@ -1,4 +1,21 @@
 {% if site.bib_search %}
   <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
-  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+  <div class="publication-search">
+    <label for="bibsearch">Filter publications</label>
+    <p id="bibsearch-hint">Enter a title, author, topic or year. For example: radar, aerosol or 2026.</p>
+    <div class="publication-search-controls">
+      <input
+        type="search"
+        id="bibsearch"
+        spellcheck="false"
+        autocomplete="off"
+        class="search bibsearch-form-input"
+        aria-describedby="bibsearch-hint"
+        aria-controls="publication-list"
+        placeholder="Search this selection"
+      >
+      <button type="button" id="bibsearch-clear" hidden>Clear filter</button>
+    </div>
+    <p id="bibsearch-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  </div>
 {% endif %}

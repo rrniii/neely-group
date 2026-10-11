@@ -52,7 +52,15 @@ His Leeds field teaching began with **Environmental Research and Career Skills (
 
 The [NCAS Introduction to Atmospheric Radar course](https://ncas.ac.uk/study-with-us/introduction-to-atmospheric-radar/) connects lectures with practical data analysis. Lindsay and David lead the course, with Ryan and Sarah among the teaching team. Participants learn to interpret Doppler and polarisation measurements, use open-source analysis tools and assess the limitations of radar data. The NCAS course page lists upcoming arrangements and how to register interest.
 
-Lindsay, David and Ryan also organised the first UK Atmospheric Radar Community Workshop in Leeds in October 2025. It brought together researchers and users from academia, public bodies and industry to discuss observations, data quality and training needs. Their [published meeting report](https://doi.org/10.1002/wea.70039) explains the community's priorities and links to its resources.
+Lindsay, David and Ryan also organised the first UK Atmospheric Radar Community Workshop in Leeds in October 2025. It brought together researchers and users from academia, public bodies and industry to discuss observations, data quality and training needs. Their [published meeting report](https://doi.org/10.1002/wea.70039) explains the community's priorities.
+
+The [UK Atmospheric Radar Community](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community) brings these resources together: [radar tools and past training materials](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community/tools-resources), [courses](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community/courses-and-training) and [meetings](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community/meetings-and-events/future-meetings). Its [contact page](https://sites.google.com/ncas.ac.uk/uk-atmospheric-radar-community/contact) explains how to join the community mailing list.
+
+## Learn radar aeroecology online
+
+[Aeroecology: Exploring Biodiversity with Radar](https://www.coursera.org/learn/aeroecology-exploring-biodiversity-with-radar) is a University of Leeds course developed through [BioDAR](https://biodarproject.org/outputs), taught by Christopher Hassall. It connects radar principles with biodiversity research, using case studies to explain what biological echoes can reveal about abundance and the limits of taxonomic identification.
+
+The two modules cover the fundamentals of radar and biodiversity, then the advantages and limitations of aeroecology. It is a useful starting point for researchers and learners approaching the field from ecology or atmospheric science. Check Coursera for current enrolment, access and certificate options.
 
 ## Research projects and supervision
 

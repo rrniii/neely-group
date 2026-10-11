@@ -1,0 +1,18 @@
+{% assign brief = site.data.project_briefs[page.project_brief] %}
+{% if brief %}
+  <section class="project-brief" aria-label="Project at a glance">
+    <dl>
+      {% for fact in brief.facts %}
+        <div>
+          <dt>{{ fact.label }}</dt>
+          <dd>{{ fact.text }}</dd>
+        </div>
+      {% endfor %}
+    </dl>
+  </section>
+  <nav class="section-nav" aria-label="On this page">
+    {% for section in brief.sections -%}
+      <a href="#{{ section.anchor }}">{{ section.label }}</a>
+    {%- endfor %}
+  </nav>
+{% endif %}
