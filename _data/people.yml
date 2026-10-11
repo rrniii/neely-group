@@ -1,6 +1,7 @@
 # Selected public profiles for the Neely research community.
 # Roles and research summaries checked against the linked institutional sources
 # on 2026-10-10. Supervision periods and roles follow Ryan's published CV.
+# Lindsay Bennett and Will Barker added from current profiles on 2026-10-11.
 # Past supervision is not a claim about degree completion or current employment.
 
 principal_investigator:
@@ -37,6 +38,22 @@ research_team:
     institution: NCAS, University of Leeds
     research: Weather-radar estimates of precipitation and their uncertainty, with applications in hydrology.
     profile_link: https://people.ncas.ac.uk/people/view/306
+
+  - name: Lindsay Bennett
+    initials: LB
+    role: Radar Operations, Data and Partnerships Lead
+    institution: NCAS, University of Leeds
+    research: Coordinates access to NCAS weather and cloud radars, including field deployments, data collection and radar research partnerships.
+    profile_link: https://people.ncas.ac.uk/people/view/212
+    # Current institutional profiles use Lindsay Rhodes; retain the display name
+    # requested by Ryan and link to the current profile.
+
+  - name: Will Barker
+    initials: WB
+    role: Atmospheric Remote Sensing Scientist
+    institution: NCAS, University of Leeds
+    research: Develops scanning Doppler lidar and software for airborne atmospheric observations, including the FAAM Airborne Laboratory upgrade.
+    profile_link: https://people.ncas.ac.uk/people/view/746
 
   - name: Alex Fearn
     initials: AF

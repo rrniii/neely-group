@@ -33,7 +33,7 @@ collaborators across disciplines and institutions.
   </div>
 </div>
 
-## Research collaborators
+## Team
 
 Our polar observing programmes and atmospheric radar capability connect
 colleagues across NCAS and the University of Leeds. Heather Guy and Sarah Barr

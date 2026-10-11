@@ -60,6 +60,11 @@ The research overview connects instrument development, interpretation and model 
 
 People's titles and project summaries are based on the institutional URLs stored with each entry in `_data/people.yml`, with the explicitly identified public-CV exception above. These are selected profiles, not a complete or authoritative staffing list. Publication records in `_publications/papers.bib` were checked against DOI publisher records / Crossref; the bibliography contains published papers and no private drafts. Current publisher metadata is used where authors' names have been updated.
 
+Team additions checked 11 October 2026:
+
+- [Lindsay's NCAS profile](https://people.ncas.ac.uk/people/view/212) and [Leeds profile](https://environment.leeds.ac.uk/see/staff/1151/dr-lindsay-bennett): Radar Operations, Data and Partnerships Lead, with responsibilities for radar access, field deployments, data collection and partnerships. These current profiles display Lindsay Rhodes; the team card retains the requested display name Lindsay Bennett and links to the current profile.
+- [Will Barker's NCAS profile](https://people.ncas.ac.uk/people/view/746): Atmospheric Remote Sensing Scientist, working on scanning Doppler lidar and software for airborne atmospheric observations, including the FAAM upgrade. The current page title takes precedence over older search snippets.
+
 ## Images
 
 - `assets/img/fieldwork/nxpol.jpg`: Neely III et al. (2018), Fig. 1, [Atmospheric Measurement Techniques](https://doi.org/10.5194/amt-11-6481-2018), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original NXPol radar at Burn Airfield. File unaltered; retained on the fieldwork page.
