@@ -2,26 +2,29 @@
 
 Professor Ryan R. Neely III · NCAS Operations Network · 4 November 2026
 
-[Open the editable slides](presentation.md). The 22-slide talk takes 20 minutes. Allow 10 minutes for questions. Two optional five-minute discussions extend the guided session to 25 or 30 minutes.
+[Open the editable slides](presentation.md). The 23-slide talk takes 20 minutes, followed by 10 minutes for questions. A five-minute discussion about a radar and a rain gauge is available if useful.
 
-| Slides | Time in the talk  | Subject                                                         |
-| ------ | ----------------- | --------------------------------------------------------------- |
-| 1–5    | 0:00–3:35         | Radar echoes, Doppler and polarisation                          |
-| 6–10   | 3:35–9:10         | The two observatories, TEAMx and a storm over southwest England |
-| 11–15  | 9:10–13:25        | Insects and birds, then ice and liquid at Troll                 |
-| 16–22  | 13:25–20:00       | AURORA, Will’s shipborne lidar, the team and NCAS Operations    |
-| 23–24  | Five minutes each | Rain over a gauge; a silent remote station                      |
-| 25–27  | Backup            | Seasonal observations, radar reference and sources              |
+| Slides | Time in the talk | Subject                                                |
+| ------ | ---------------- | ------------------------------------------------------ |
+| 1–5    | 0:00–3:35        | Radar echoes, Doppler and polarisation                 |
+| 6–8    | 3:35–6:40        | The two mobile observatories and Leeds Farm            |
+| 9–12   | 6:40–11:00       | TEAMx, a WOEST storm and the UK radar archive          |
+| 13–17  | 11:00–15:15      | Insects and birds, then ice and liquid at Troll        |
+| 18–23  | 15:15–20:00      | AURORA, Will’s shipborne lidar, the team and questions |
+| 24     | Five minutes     | Comparing radar with a rain gauge                      |
+| 25–27  | Backup           | Seasonal observations, radar reference and sources     |
 
 ## Present and edit
 
 The source is [presentation.md](presentation.md), a Marp Markdown presentation with speaker notes beneath each slide. [presentation.html](presentation.html) is the prebuilt version. To present offline, download the branch and keep its directory structure, then open the HTML in a browser. Arrow keys advance slides and **P** opens presenter view. To rebuild, run `npx @marp-team/marp-cli@4.5.1 presentation.md -o presentation.html` in this folder.
 
-This edition uses figures and photographs available for public reuse. The meeting PowerPoint uses additional teaching and field photographs.
+This edition uses figures and photographs available for public reuse. The meeting presentation uses additional teaching and field photographs.
 
 ## Sources and figure credits
 
 - **Radar and observatories.** [NCAS radar introduction](https://ncas.ac.uk/see-inside-the-clouds-meet-our-atmospheric-radars/), [AMOF weather radar](https://amof.ac.uk/instruments/x-band-mobile-weather-radar/) and [AMOF cloud radar](https://amof.ac.uk/instruments/mobile-cloud-radar/). The pulse-and-echo illustration was created for this Markdown edition.
+- **Leeds Farm.** [Community observatory profile, site photographs and instruments](https://amof.ac.uk/observatory/community-leeds-farm-atmospheric-observatory/). The [Cardington site record](https://doi.org/10.5194/essd-18-1575-2026) documents its closure at the end of 2024.
+- **UK radar archive.** [UK WSR Visualizer documentation](https://rrniii.github.io/uk-wsr-visualizer/) and [source code](https://github.com/rrniii/uk-wsr-visualizer).
 - **Doppler.** [Dopplerfrequenz.gif by Charly Whisky](https://commons.wikimedia.org/wiki/File:Dopplerfrequenz.gif), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). The loop starts at a different frame. This adaptation uses the same licence.
 - **NXPol photograph.** Neely III et al. (2018), [Fig. 1](https://doi.org/10.5194/amt-11-6481-2018), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original NXPol at Burn Airfield. Photograph unaltered.
 - **TEAMx.** [NCAS field report](https://ncas.ac.uk/ncas-supports-major-alpine-weather-research-campaign-this-summer/) and [Mount Plose radar observations](https://catalogue.ceda.ac.uk/uuid/ef40ee0e4d4c4a208cc81b4a24902631/).

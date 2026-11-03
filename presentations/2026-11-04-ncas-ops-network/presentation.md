@@ -123,6 +123,22 @@ The boundary layer is the part of the atmosphere closest to the ground. It suppl
 
 ---
 
+# Leeds Farm Atmospheric Observatory (LFAO)
+
+**Where does the rain go after it reaches a field?**
+
+Soil sensors track water in the ground. Flux towers measure water returning to the air above the crops.
+
+The observatory is nearly complete. It will be a permanent base for field campaigns, instrument tests and training.
+
+<!--
+05:35–06:40
+
+LFAO is on the University of Leeds Research Farm between Leeds and York. After a shower, UKCEH’s COSMOS soil-moisture sensor tells us how much water is in the soil across part of a field. Three flux towers measure how much water vapour is moving back into the air. A Met Office station records the local weather. Together they give a visiting team something to compare its instrument against across changing weather. We’ve already used the farm to test AURORA before taking it to Iceland. Having somewhere in the UK to do this work matters, particularly since the Met Office field site at Cardington closed at the end of 2024.
+-->
+
+---
+
 # Our radar went to the Alps
 
 Mount Plose, Italy · summer 2025
@@ -130,7 +146,7 @@ Mount Plose, Italy · summer 2025
 How do mountains change where storms develop and rain falls?
 
 <!--
-05:35–06:10
+06:40–07:15
 
 The TEAMx campaign took NXPol-2 to Mount Plose. From there it could scan across alpine terrain and record rain over the surrounding area. The archive contains observations from June to September. Finding a site with a useful view, a route in and power is part of planning the measurement.
 -->
@@ -144,7 +160,7 @@ Southwest England · summer 2023
 Two NCAS mobile weather radars joined three Met Office radars. Together their different views let us reconstruct the wind inside storms.
 
 <!--
-06:10–07:25
+07:15–08:30
 
 WOEST asked why some summer clouds develop into storms while others fade. NCAS and Leeds led the project alongside the Met Office WesCon campaign. The radar teams had to agree where to point the instruments and when. Lidar, balloons and weather drones also sampled the air feeding the clouds. Rob Thompson and colleagues combined the five weather radars to estimate how the wind changed in three dimensions every ten minutes.
 -->
@@ -158,9 +174,27 @@ WOEST asked why some summer clouds develop into storms while others fade. NCAS a
 2 August 2023, 13:30 UTC. Colours show echo strength. Arrows show the estimated wind in this vertical slice.
 
 <!--
-07:25–09:10
+08:30–10:15
 
 Start with the horizontal axis and read across the storm. Height increases upwards. Ask the room where they see the arrows turn upwards. Two columns of rising air are about seven kilometres apart. The colour is echo strength, rather than wind speed. The arrows are the wind reconstructed by combining the different radar views. Estimates of vertical motion are more uncertain close to the ground. A map of surface rainfall alone could not show us those two columns. Credit: Thompson et al. (2026), Fig. 12a, CC BY 4.0. The panel is cropped from the full figure.
+-->
+
+---
+
+# Exploring the UK weather radar archive
+
+**What did Clee Hill radar see during Storm Henk?**
+
+Clee Hill, 2 January 2024 at 12:00 UTC. The map shows how strongly the rain reflected the radar signal.
+
+Choose a radar and time, compare scans and download the original data.
+
+[UK WSR Visualizer](https://rrniii.github.io/uk-wsr-visualizer/)
+
+<!--
+10:15–11:00
+
+The five-radar wind field took a research team to put together. For Storm Henk we can open the Clee Hill radar scan from midday on 2 January 2024. The colours on a reflectivity map tell us how strong the echoes were. Our desktop viewer lets you compare it with the next scan without downloading the whole archive. You can see which file produced an image and get the original data for your own analysis. What happens if you look at a day when there wasn’t any rain?
 -->
 
 ---
@@ -172,7 +206,7 @@ BioDAR used eight years of observations from fifteen Met Office radars.
 Over that period, estimated airborne arthropod abundance declined at dusk and at night across the areas sampled.
 
 <!--
-09:10–10:10
+11:00–12:00
 
 Ask what else can produce an echo on a dry day. Insects and other small animals scatter radio waves too. The study covers 2014 to 2021. The daytime pattern varied across the country. Radar samples animals in flight and the classification has uncertainty. It gives us a record of the living atmosphere over a much wider area than we could sample by hand.
 -->
@@ -186,7 +220,7 @@ Ask what else can produce an echo on a dry day. Insects and other small animals 
 Historical radar observations show where and when birds were moving.
 
 <!--
-10:10–10:45
+12:00–12:35
 
 The data pick up movements at night, when observers on the ground see little. They describe birds aloft in the areas the radars sample. We are exploring what these records could contribute to conservation. They do not resolve individual species.
 -->
@@ -200,7 +234,7 @@ The data pick up movements at night, when observers on the ground see little. Th
 Snowfall adds mass. Cloud cover changes how much energy reaches the surface.
 
 <!--
-10:45–11:15
+12:35–13:05
 
 A polar cloud can contain ice crystals and liquid droplets at the same time, even below zero degrees. The mix of ice and liquid changes how the cloud interacts with sunlight and infrared radiation. Measuring it matters when we test whether our models get the surface energy budget right. The photograph shows a helikite at Summit Station in Greenland. Credit: Guy et al. (2024), Fig. 2, CC BY 4.0.
 -->
@@ -212,7 +246,7 @@ A polar cloud can contain ice crystals and liquid droplets at the same time, eve
 A staffed research station gives us a year-round base to study clouds and snowfall.
 
 <!--
-11:15–12:05
+13:05–13:55
 
 At Troll we can compare a radar record of snow and ice with lidar and microwave observations of the same cloud. Colleagues at the station, the remote instrument teams and the data centre all contribute to the record. Here is a day when the distinction between ice and liquid mattered.
 -->
@@ -226,7 +260,7 @@ At Troll we can compare a radar record of snow and ice with lidar and microwave 
 Troll, 31 December 2025. Time runs across the plot and height runs upwards.
 
 <!--
-12:05–13:25
+13:55–15:15
 
 Follow the blue layer near two kilometres around the middle of the day. Blue marks ice and liquid droplets together. Above it, the classification suggests ice. Each instrument is sensitive to something different, and bringing the observations together helps us infer what the cloud contains. We can then ask whether a model put its liquid water at the same height and for the same length of time.
 -->
@@ -238,7 +272,7 @@ Follow the blue layer near two kilometres around the middle of the day. Blue mar
 We are testing the GAMB2LE observatory in Iceland, ahead of future work in Greenland.
 
 <!--
-13:25–14:25
+15:15–16:15
 
 At Troll we can draw on a staffed station. AURORA asks what it would take to make sustained measurements where there is no mains supply and nobody available to reset an instrument. The Iceland test gives us the chance to learn what happens to the whole system through changing conditions.
 -->
@@ -254,7 +288,7 @@ Can we recover remotely?
 Can the measurements survive a break in communications?
 
 <!--
-14:25–15:20
+16:15–17:10
 
 Winter changes the energy available from solar panels, and cold puts demands on batteries and equipment. Losing the link does not by itself tell us the instrument stopped. We need to think through local recording, what information can reach us, and what happens when the system restarts.
 -->
@@ -266,7 +300,7 @@ Winter changes the energy available from solar panels, and cold puts demands on 
 A temperature and humidity profile gives us another view of the lowest part of the atmosphere.
 
 <!--
-15:20–15:55
+17:10–17:45
 
 A drone can climb through a layer that we have been watching remotely and sample its temperature and humidity directly. The aim is to combine those measurements with observations made from the ground. Reliable flights in polar conditions are still a development task.
 -->
@@ -280,7 +314,7 @@ A ship rolls and pitches. How can a lidar distinguish the motion of the air from
 RRS Sir David Attenborough
 
 <!--
-15:55–17:00
+17:45–18:50
 
 Will Barker is developing ship-based Doppler lidar measurements with the British Antarctic Survey. We want to measure winds over the ocean. A moving deck changes both the direction the beam points and the apparent motion along it. Knowing the orientation and motion of the instrument is part of making a usable wind measurement.
 -->
@@ -296,25 +330,9 @@ Will Barker is developing ship-based Doppler lidar measurements with the British
 **PhD researchers** · Andrew Martin, Imogen Wadlow, Clare Ballantyne and Emily Smeaton
 
 <!--
-17:00–17:50
+18:50–19:40
 
 These contributions overlap. Lindsay works on radar operations and partnerships, Dave on radar data and rainfall, and Alex on field systems. Will has been developing lidar observations at sea. Heather and Sarah bring polar cloud and field-observing expertise. Our doctoral researchers work across these questions and make measurements of their own.
--->
-
----
-
-# Where NCAS Ops comes into the measurement
-
-**Before deployment** · Can we get the equipment, people and power to the site?
-
-**While we observe** · Who can see when something stops, and who can act?
-
-**After the campaign** · Can another team find the observations and use them?
-
-<!--
-17:50–19:40
-
-For WOEST, the sites and observation periods had to line up before the five radars could see the same storm. For our two mobile observatories, the home base has to support maintenance, training and field preparation. Finance and contracts can help us work out what has to be ordered first and which agreements have long lead times. Workshop and project colleagues know the practical constraints on building, testing and shipping. The People team helps us staff the work, and IT and communications colleagues support data transfer and access. We can give Ops an observing plan and its constraints early enough to make those decisions together.
 -->
 
 ---
@@ -328,7 +346,7 @@ NCAS Operations Network · 4 November 2026
 <!--
 19:40–20:00
 
-Pause for questions. If the room wants a concrete starting point, the next two slides each support five minutes of discussion. Choose whichever fits the people in the room.
+Pause for questions. If the room wants a concrete starting point, the next slide offers a five-minute discussion about rain at the ground.
 -->
 
 ---
@@ -342,25 +360,9 @@ The radar samples a volume of air. The gauge collects rain at one spot on the gr
 What would you check before comparing the two?
 
 <!--
-Optional discussion 1 · five minutes
+Optional discussion · five minutes
 
 Optional five minutes. Give the room a moment to think, then take two suggestions. Rain takes time to fall. A wind can carry it sideways, and some drops evaporate before reaching the ground. Ask what else the team needs to interpret the comparison: the beam height, gauge location, aligned clocks, the accumulation period and maintenance records. Finish by asking which of these choices we can settle before fieldwork.
--->
-
----
-
-<!-- _class: discuss -->
-
-# AURORA stops sending data. Has it lost power or lost the link?
-
-What would you want the station to record locally?
-
-What could it send when the connection returns?
-
-<!--
-Optional discussion 2 · five minutes
-
-Optional five minutes. This is a design exercise. Give the audience a minute to compare explanations. Losing contact looks the same from here whether the link has failed or the entire station has lost power. If the connection returns, a local record of battery voltage, instrument status and last restart can help distinguish them. Who would see the message, who could restart the system, and when would we ask for a site visit?
 -->
 
 ---
@@ -397,6 +399,8 @@ Backup. The AMOF mobile facilities, instruments at Troll and the national radar 
 # Sources and observations
 
 [AMOF weather radar](https://amof.ac.uk/instruments/x-band-mobile-weather-radar/) · [AMOF cloud radar](https://amof.ac.uk/instruments/mobile-cloud-radar/)
+
+[Leeds Farm Atmospheric Observatory](https://amof.ac.uk/observatory/community-leeds-farm-atmospheric-observatory/) · [UK WSR Visualizer](https://rrniii.github.io/uk-wsr-visualizer/)
 
 [WOEST archive](https://catalogue.ceda.ac.uk/uuid/36756ff1928f4a1684902b470cda774e/) · [Five-radar wind field](https://doi.org/10.5194/egusphere-2026-4631)
 
