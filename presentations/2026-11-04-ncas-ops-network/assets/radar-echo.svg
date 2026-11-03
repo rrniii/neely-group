@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" role="img" aria-labelledby="t d">
+  <title id="t">Timing a radar echo</title>
+  <desc id="d">A pulse travels from the radar to raindrops. A smaller echo returns along the same path. The round-trip time gives the distance.</desc>
+  <rect width="900" height="170" rx="8" fill="#edf5f7"/>
+  <g font-family="Arial, sans-serif" font-size="25" fill="#113948">
+    <text x="45" y="145">Radar</text><text x="710" y="145">Raindrops</text>
+    <text x="260" y="39">Outgoing pulse</text><text x="405" y="141">Returning echo</text>
+  </g>
+  <path d="M85 86l24-31c12 13 14 35-2 50z" fill="#194c5e"/><path d="M92 83l-9 31h31" fill="none" stroke="#194c5e" stroke-width="6"/>
+  <g fill="#2286a1"><path id="drop" d="M760 64q-21 27 0 27q21 0 0-27"/><use href="#drop" x="35" y="6"/><use href="#drop" x="-19" y="-22"/></g>
+  <path d="M130 69h582" fill="none" stroke="#8eadb6" stroke-width="2"/><path d="M130 90h582" fill="none" stroke="#8eadb6" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M0 0l-13-6v12z" fill="#00788f"><animateMotion dur="4s" repeatCount="indefinite" keyTimes="0;0.45;1" keyPoints="0;1;1" calcMode="linear" path="M130 69h580"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.46;1" dur="4s" repeatCount="indefinite"/></path>
+  <path d="M0 0l9-4v8z" fill="#c35427"><animateMotion dur="4s" repeatCount="indefinite" keyTimes="0;0.45;0.9;1" keyPoints="0;0;1;1" calcMode="linear" path="M710 90H130"/><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.44;0.45;0.9;1" dur="4s" repeatCount="indefinite"/></path>
+</svg>
