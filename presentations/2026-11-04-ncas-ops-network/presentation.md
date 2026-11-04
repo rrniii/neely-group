@@ -58,9 +58,43 @@ Point to the pulse as it travels out, then to the weaker echo coming back. We kn
 A passing siren sounds higher as it approaches and lower as it recedes.
 
 <!--
-01:20–02:10
+01:20–01:43
 
-The waves bunch together in front of the car and spread out behind. Radar uses radio waves and compares successive echoes to see how fast particles move towards or away from the instrument. A wind blowing straight across our beam can look still. Remember that when we get to WOEST.
+The waves bunch together in front of the car and spread out behind. Radar uses radio waves and compares successive echoes to see how fast particles move towards or away from the instrument.
+-->
+
+---
+
+![bg right:50% fit](assets/ktlx-radial-velocity.png)
+
+# Reading a Doppler velocity scan
+
+**Green near Norman** means motion towards the radar. **Red near Edmond** means motion away.
+
+These two regions are consistent with a wind blowing broadly northwards.
+
+Oklahoma, 8 March 2020, 23:48 UTC
+
+<!--
+01:43–02:10
+
+The radar sits at the centre of these rings. It sweeps around at a fixed elevation of 1.32° to make this plan-position indicator, or PPI. South of the radar the targets approach it. North of the radar they recede. A wind blowing across the beam can give near-zero radial velocity.
+
+Figure cropped from Kim and Cheong (2023), Fig. 3b. https://doi.org/10.3390/rs15030802 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+-->
+
+---
+
+# The true nature of raindrops
+
+Surface tension keeps small drops nearly spherical.
+
+As larger drops fall, air pushes against their underside and flattens them.
+
+<!--
+Brief interlude at 02:10, within the polarisation explanation that follows.
+
+Source: USGS Water Science School, https://www.usgs.gov/water-science-school/science/are-raindrops-shaped-teardrops
 -->
 
 ---
@@ -125,9 +159,9 @@ The boundary layer is the part of the atmosphere closest to the ground. It suppl
 
 # Leeds Farm Atmospheric Observatory (LFAO)
 
-**Where does the rain go after it reaches a field?**
+**A site for radar and visiting instruments**
 
-Soil sensors track water in the ground. Flux towers measure water returning to the air above the crops.
+The field compound gives visiting teams a place to set up instruments. Nearby soil sensors track water in the ground, and flux towers measure water returning to the air above the crops.
 
 The observatory is nearly complete. It will be a permanent base for field campaigns, instrument tests and training.
 

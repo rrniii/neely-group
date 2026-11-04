@@ -2,17 +2,17 @@
 
 Professor Ryan R. Neely III · NCAS Operations Network · 4 November 2026
 
-[Open the editable slides](presentation.md). The 23-slide talk takes 20 minutes, followed by 10 minutes for questions. A five-minute discussion about a radar and a rain gauge is available if useful.
+[Open the editable slides](presentation.md). The 25-slide talk takes 20 minutes, followed by 10 minutes for questions. A five-minute discussion about a radar and a rain gauge is available if useful.
 
 | Slides | Time in the talk | Subject                                                |
 | ------ | ---------------- | ------------------------------------------------------ |
-| 1–5    | 0:00–3:35        | Radar echoes, Doppler and polarisation                 |
-| 6–8    | 3:35–6:40        | The two mobile observatories and Leeds Farm            |
-| 9–12   | 6:40–11:00       | TEAMx, a WOEST storm and the UK radar archive          |
-| 13–17  | 11:00–15:15      | Insects and birds, then ice and liquid at Troll        |
-| 18–23  | 15:15–20:00      | AURORA, Will’s shipborne lidar, the team and questions |
-| 24     | Five minutes     | Comparing radar with a rain gauge                      |
-| 25–27  | Backup           | Seasonal observations, radar reference and sources     |
+| 1–7    | 0:00–3:35        | Radar echoes, Doppler and polarisation                 |
+| 8–10   | 3:35–6:40        | The two mobile observatories and Leeds Farm            |
+| 11–14  | 6:40–11:00       | TEAMx, a WOEST storm and the UK radar archive          |
+| 15–19  | 11:00–15:15      | Insects and birds, then ice and liquid at Troll        |
+| 20–25  | 15:15–20:00      | AURORA, Will’s shipborne lidar, the team and questions |
+| 26     | Five minutes     | Comparing radar with a rain gauge                      |
+| 27–29  | Backup           | Seasonal observations, radar reference and sources     |
 
 ## Present and edit
 
@@ -26,6 +26,8 @@ This edition uses figures and photographs available for public reuse. The meetin
 - **Leeds Farm.** [Community observatory profile, site photographs and instruments](https://amof.ac.uk/observatory/community-leeds-farm-atmospheric-observatory/). The [Cardington site record](https://doi.org/10.5194/essd-18-1575-2026) documents its closure at the end of 2024.
 - **UK radar archive.** [UK WSR Visualizer documentation](https://rrniii.github.io/uk-wsr-visualizer/) and [source code](https://github.com/rrniii/uk-wsr-visualizer).
 - **Doppler.** [Dopplerfrequenz.gif by Charly Whisky](https://commons.wikimedia.org/wiki/File:Dopplerfrequenz.gif), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). The loop starts at a different frame. This adaptation uses the same licence.
+- **Radial velocity scan.** Observed KTLX Doppler velocity over central Oklahoma, 8 March 2020 at 23:48 UTC, 1.32° elevation. Cropped from Hyeri Kim and Boonleng Cheong (2023), [figure 3b](https://doi.org/10.3390/rs15030802), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Raindrop shapes.** [USGS Water Science School](https://www.usgs.gov/water-science-school/science/are-raindrops-shaped-teardrops).
 - **NXPol photograph.** Neely III et al. (2018), [Fig. 1](https://doi.org/10.5194/amt-11-6481-2018), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original NXPol at Burn Airfield. Photograph unaltered.
 - **TEAMx.** [NCAS field report](https://ncas.ac.uk/ncas-supports-major-alpine-weather-research-campaign-this-summer/) and [Mount Plose radar observations](https://catalogue.ceda.ac.uk/uuid/ef40ee0e4d4c4a208cc81b4a24902631/).
 - **WOEST.** [NCAS project overview](https://ncas.ac.uk/researchers-awarded-1-8m-to-improve-turbulence-in-weather-forecasts/) and [CEDA collection](https://catalogue.ceda.ac.uk/uuid/36756ff1928f4a1684902b470cda774e/). The storm cross-section is panel 12a, cropped from Thompson et al. (2026), [Derivation of the multi-Doppler 3D wind field during the 2023 WesCon-WOEST campaign in southern England](https://doi.org/10.5194/egusphere-2026-4631), _EGUsphere_ preprint, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
